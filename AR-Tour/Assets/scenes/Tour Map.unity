@@ -411,7 +411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _desiredAccuracyInMeters: 5
-  _updateDistanceInMeters: 5
+  _updateDistanceInMeters: 2
 --- !u!4 &1211515436
 Transform:
   m_ObjectHideFlags: 0
@@ -500,10 +500,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d7ff8ed3b76a4ee5a451d64a5393e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _west: 1
-  _north: 1
-  _east: 1
-  _south: 1
+  _west: 3
+  _north: 3
+  _east: 3
+  _south: 3
 --- !u!114 &1572976570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -517,14 +517,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _initializeOnStart: 1
   _latitudeLongitudeString: 49.9396, -119.396
-  _zoom: 16
+  _zoom: 18
   _root: {fileID: 1572976571}
   _tileProvider: {fileID: 1572976569}
   _mapVisualizer: {fileID: 11400000, guid: e133ca1fd1fd0aa47b59fad9ae6881ef, type: 2}
-  _unityTileSize: 100
+  _unityTileSize: 25
   _snapMapHeightToZero: 1
   MinZoom: 0
-  MaxZoom: 0
+  MaxZoom: 22
 --- !u!4 &1572976571
 Transform:
   m_ObjectHideFlags: 0
@@ -641,8 +641,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60712efc3153a4819b0c79437175846d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _latitudeLongitude: 49.939819, -119.395769
-  _heading: 0
+  _latitudeLongitude: 49.980, -119.45
+  _heading: 30
 --- !u!4 &1931273252
 Transform:
   m_ObjectHideFlags: 0
