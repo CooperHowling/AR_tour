@@ -37,6 +37,7 @@ namespace Mapbox.Unity.Location
             {
                 var split = _latitudeLongitude.Split(',');
                 return new Vector2d(double.Parse(split[0]), double.Parse(split[1]));
+                
             }
         }
 

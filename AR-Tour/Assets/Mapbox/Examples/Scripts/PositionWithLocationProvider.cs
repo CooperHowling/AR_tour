@@ -36,9 +36,9 @@ namespace Mapbox.Examples
 			{
 				if (_locationProvider == null)
 				{
-					_locationProvider = _useTransformLocationProvider ?
-						LocationProviderFactory.Instance.TransformLocationProvider : LocationProviderFactory.Instance.DefaultLocationProvider;
-				}
+					_locationProvider = _useTransformLocationProvider ? LocationProviderFactory.Instance.TransformLocationProvider : LocationProviderFactory.Instance.DefaultLocationProvider;
+
+                }
 
 				return _locationProvider;
 			}

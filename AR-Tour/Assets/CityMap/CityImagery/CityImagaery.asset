@@ -11,13 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b10536479dade041b6db9893fdf723a, type: 3}
   m_Name: CityImagaery
   m_EditorClassIdentifier: 
-  _mapIdType: 0
+  _mapIdType: 1
   _customStyle:
-    Name: 
-    Id: 
-    Modified: 
-    UserName: 
-  _mapId: mapbox://styles/mapbox/outdoors-v10
+    Name: Streets
+    Id: mapbox://styles/mattmc5/cj97fmjln0jgl2spi1k022o3q
+    Modified: 2017-11-22T19:49:32.799Z
+    UserName: mattmc5
+  _mapId: mapbox://styles/mattmc5/cj97fmjln0jgl2spi1k022o3q
   _useCompression: 1
   _useMipMap: 0
   _useRetina: 0
