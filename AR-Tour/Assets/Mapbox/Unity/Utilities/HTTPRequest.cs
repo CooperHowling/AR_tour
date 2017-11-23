@@ -57,7 +57,7 @@ namespace Mapbox.Unity.Utilities
 
 		private IEnumerator DoRequest()
 		{
-			_request.Send();
+			_request.SendWebRequest();
 
 			DateTime timeout = DateTime.Now.AddSeconds(_timeout);
 			bool didTimeout = false;

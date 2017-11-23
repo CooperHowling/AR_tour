@@ -6,7 +6,8 @@
     using Mapbox.Geocoding;
     using Mapbox.Unity;
 
-	public class GeocodeAttributeSearchWindow : EditorWindow
+    [InitializeOnLoadAttribute]
+    public class GeocodeAttributeSearchWindow : EditorWindow
 	{
 		SerializedProperty _property;
 
@@ -27,7 +28,7 @@
 		void OnEnable()
 		{
 			_resource = new ForwardGeocodeResource("");
-			EditorApplication.playmodeStateChanged += OnModeChanged;
+            EditorApplication.playmodeStateChanged += OnModeChanged;
 		}
 
 		void OnDisable()
