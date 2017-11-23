@@ -80,7 +80,7 @@ namespace Mapbox.Unity.Telemetry
 			request.downloadHandler = new DownloadHandlerBuffer();
 			request.SetRequestHeader("Content-Type", "application/json");
 
-			yield return request.Send();
+			yield return request.SendWebRequest();
 		}
 
 		IEnumerator PostWWW(string url, string bodyJsonString)

@@ -9,7 +9,20 @@ public class menuSlide : MonoBehaviour {
     //animator reference
     private Animator anim;
     //variable for checking if the game is paused 
-    private bool MenuIn = false;
+    bool MenuIn = false;
+
+    public bool MenuIn1
+    {
+        get
+        {
+            return MenuIn;
+        }
+
+        set
+        {
+            MenuIn = value;
+        }
+    }
 
 
     // Use this for initialization
@@ -30,7 +43,7 @@ public class menuSlide : MonoBehaviour {
         //play the Slidein animation
         anim.Play("MenuPanelSlideIn");
         //set the isPaused flag to true to indicate that the game is paused
-        MenuIn = true;
+        MenuIn1 = true;
         //freeze the timescale
         Time.timeScale = 0;
     }
@@ -38,7 +51,7 @@ public class menuSlide : MonoBehaviour {
     public void SlideOut()
     {
         //set the isPaused flag to false to indicate that the game is not paused
-        MenuIn = false;
+        MenuIn1 = false;
         //play the SlideOut animation
         anim.Play("MenuPanelSlideOut");
         //set back the time scale to normal time scale

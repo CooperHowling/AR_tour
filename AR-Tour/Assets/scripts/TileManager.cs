@@ -185,7 +185,9 @@ public class TileManager : MonoBehaviour
             sinAlpha = cosU1 * cosU2 * sinLambda / sinSigma;
             cosSqAlpha = 1 - sinAlpha * sinAlpha;
             cos2SigmaM = cosSigma - 2 * sinU1 * sinU2 / cosSqAlpha;
+#pragma warning disable CS1718 // Comparison made to same variable
             if (cos2SigmaM != cos2SigmaM) //isNaN
+#pragma warning restore CS1718 // Comparison made to same variable
             {
                 cos2SigmaM = 0;  // equatorial line: cosSqAlpha=0 (§6)
             }
@@ -232,7 +234,7 @@ public class TileManager : MonoBehaviour
         [SerializeField]
         public int size = 640;
         [SerializeField]
-        public float scale = 1f;
+        public float scale = 0.5f;
         [SerializeField]
         public int range = 1;
         [SerializeField]
