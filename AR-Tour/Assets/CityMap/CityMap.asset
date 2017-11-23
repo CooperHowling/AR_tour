@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: CityMap
   m_EditorClassIdentifier: 
   Factories:
-  - {fileID: 11400000, guid: afab09155c8e199418024d097a2e12ac, type: 2}
   - {fileID: 11400000, guid: 4388e1a2a9e508a459f03e703e515d44, type: 2}
+  - {fileID: 11400000, guid: afab09155c8e199418024d097a2e12ac, type: 2}
   _loadingTexture: {fileID: 0}
