@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/radialMenu.unity
+- path: Assets/scenes/Information.unity
   isLoaded: 1
   isActive: 1

@@ -334,6 +334,7 @@
     <Compile Include="Assets\Mapbox\Unity\Editor\VectorTileFactoryEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Helpers\AlphaMask.shader" />
     <None Include="Assets\Mapbox\Core\Plugins\link.xml" />
     <None Include="Assets\Mapbox\Fonts\OpenSansLic.txt" />
     <None Include="Assets\Mapbox\README.txt" />

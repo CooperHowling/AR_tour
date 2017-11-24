@@ -222,6 +222,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Helpers\geoConverter.cs" />
+    <Compile Include="Assets\Helpers\RotateBySwipe.cs" />
     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Directions\DirectionResource.cs" />
     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Directions\Directions.cs" />
     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Directions\Overview.cs" />
@@ -446,8 +448,10 @@
     <Compile Include="Assets\scripts\LocationServices.cs" />
     <Compile Include="Assets\scripts\menuSlide.cs" />
     <Compile Include="Assets\scripts\PlayerTileProvider.cs" />
+    <Compile Include="Assets\scripts\TileManager.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Helpers\AlphaMask.shader" />
     <None Include="Assets\Mapbox\Core\Plugins\link.xml" />
     <None Include="Assets\Mapbox\Fonts\OpenSansLic.txt" />
     <None Include="Assets\Mapbox\README.txt" />
