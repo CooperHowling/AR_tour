@@ -13,11 +13,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mapIdType: 1
   _customStyle:
-    Name: Streets
-    Id: mapbox://styles/mattmc5/cj97fmjln0jgl2spi1k022o3q
-    Modified: 2017-11-22T19:49:32.799Z
+    Name: WQOW-copy
+    Id: mapbox://styles/mattmc5/cjad2j1uq4v4t2spfg5fbyhzu
+    Modified: 2017-11-25T00:10:54.174Z
     UserName: mattmc5
-  _mapId: mapbox://styles/mattmc5/cj97fmjln0jgl2spi1k022o3q
+  _mapId: mapbox://styles/mattmc5/cjad2j1uq4v4t2spfg5fbyhzu
   _useCompression: 1
   _useMipMap: 0
   _useRetina: 0
