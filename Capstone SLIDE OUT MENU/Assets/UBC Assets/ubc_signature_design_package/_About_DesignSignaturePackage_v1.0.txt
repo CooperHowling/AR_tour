@@ -1,0 +1,9 @@
+UBC Signature: Complete Design Package
+Version 1.0
+July 2016
+
+Features:
+- Files no longer include “a place of mind” tagline
+- Files contain larger word mark
+- Narrow UBC signature is now available
+- Promotional UBC logo no longer available
