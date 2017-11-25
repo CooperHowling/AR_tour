@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/scenes/ImagesBARK.unity
+=======
+- path: Assets/scenes/Tour Map.unity
+>>>>>>> f9b1469aab4119192f6bf831e0794f98320ea088
   isLoaded: 1
   isActive: 1
