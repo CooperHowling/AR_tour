@@ -456,6 +456,7 @@
     <Compile Include="Assets\scripts\MenuButtonScript.cs" />
     <Compile Include="Assets\scripts\menuSlide.cs" />
     <Compile Include="Assets\scripts\PlayerTileProvider.cs" />
+    <Compile Include="Assets\scripts\showPOI.cs" />
     <Compile Include="Assets\scripts\streamVideo.cs" />
     <Compile Include="Assets\scripts\switchBarkImage.cs" />
     <Compile Include="Assets\scripts\switchScene.cs" />
