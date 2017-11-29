@@ -5,15 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/scenes/Tour Map.unity
     guid: daea383cc004f9546a1eb6dfec59f258
-  - enabled: 1
+  - enabled: 0
     path: Assets/scenes/radialMenu.unity
     guid: 9c61e56f11283474f9e9c403407461c6
-  - enabled: 1
+  - enabled: 0
     path: Assets/scenes/Information.unity
     guid: a3f84af7acf84be4ea44d9c72b779fa3
-  - enabled: 1
+  - enabled: 0
     path: Assets/scenes/Splash.unity
     guid: afb5e0624375e0442b005c9353accb2e
+  - enabled: 0
+    path: Assets/scenes/ArBark.unity
+    guid: 75eca880e244e7840828a013bae8be9d
+  - enabled: 1
+    path: Assets/scenes/simpleAr.unity
+    guid: 5073fcd3046e3c14394b51f2883d78a1
