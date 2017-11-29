@@ -274,9 +274,14 @@
      <Compile Include="Assets\Mapbox\Unity\Utilities\StyleSearchAttribute.cs" />
      <Compile Include="Assets\Mapbox\Unity\Utilities\TelemetryConfigurationButton.cs" />
      <Compile Include="Assets\Mapbox\Unity\Utilities\VectorExtensions.cs" />
+     <Compile Include="Assets\scripts\AnimController.cs" />
      <Compile Include="Assets\scripts\LocationServices.cs" />
+     <Compile Include="Assets\scripts\MenuButtonScript.cs" />
      <Compile Include="Assets\scripts\menuSlide.cs" />
      <Compile Include="Assets\scripts\PlayerTileProvider.cs" />
+     <Compile Include="Assets\scripts\streamVideo.cs" />
+     <Compile Include="Assets\scripts\switchBarkImage.cs" />
+     <Compile Include="Assets\scripts\switchScene.cs" />
      <Compile Include="Assets\scripts\TileManager.cs" />
      <None Include="Assets\Helpers\AlphaMask.shader" />
      <None Include="Assets\Mapbox\Fonts\OpenSansLic.txt" />

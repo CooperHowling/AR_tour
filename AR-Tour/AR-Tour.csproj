@@ -215,6 +215,7 @@
       <HintPath>Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
+<<<<<<< HEAD
       <HintPath>C:/Users/Matt/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
@@ -225,6 +226,12 @@
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+=======
+      <HintPath>C:/Users/Ashley Bernhardt/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/Ashley Bernhardt/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+>>>>>>> 24654d6ca591e1ddf56d5c27c45f75c186e09b67
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -456,6 +463,7 @@
     <Compile Include="Assets\scripts\MenuButtonScript.cs" />
     <Compile Include="Assets\scripts\menuSlide.cs" />
     <Compile Include="Assets\scripts\PlayerTileProvider.cs" />
+    <Compile Include="Assets\scripts\streamVideo.cs" />
     <Compile Include="Assets\scripts\switchBarkImage.cs" />
     <Compile Include="Assets\scripts\switchScene.cs" />
     <Compile Include="Assets\scripts\TileManager.cs" />
