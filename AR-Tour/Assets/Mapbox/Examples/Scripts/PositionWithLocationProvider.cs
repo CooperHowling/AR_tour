@@ -81,8 +81,8 @@ namespace Mapbox.Examples
 		}
 
 		void Update()
-		{
-			transform.position = Vector3.Lerp(transform.position, _targetPosition, Time.deltaTime * _positionFollowFactor);
+		{      //movement magnified by a factor of 25
+			transform.position = Vector3.Lerp(transform.position, _targetPosition * 25, Time.deltaTime * _positionFollowFactor);
 		}
 	}
 }
