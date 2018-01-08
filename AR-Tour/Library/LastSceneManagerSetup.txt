@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/scenes/Tour Map.unity
+=======
+<<<<<<< HEAD
+- path: Assets/scenes/Splash.unity
+=======
+- path: Assets/scenes/Tour Map.unity
+>>>>>>> 5fdf11b94c6b0bf987af0003996fd9f9f1a7471e
+>>>>>>> master
   isLoaded: 1
   isActive: 1

@@ -81,8 +81,14 @@ namespace Mapbox.Examples
 		}
 
 		void Update()
+<<<<<<< HEAD
 		{      //movement magnified by a factor of 25
 			transform.position = Vector3.Lerp(transform.position, _targetPosition * 25, Time.deltaTime * _positionFollowFactor);
+=======
+		{
+            //need to increase sensitivity, target location to move to is multiplied by 25
+			transform.position = Vector3.Lerp(transform.position, _targetPosition*25, Time.deltaTime * _positionFollowFactor);
+>>>>>>> master
 		}
 	}
 }
