@@ -274,6 +274,7 @@
      <Compile Include="Assets\Mapbox\Unity\Utilities\StyleSearchAttribute.cs" />
      <Compile Include="Assets\Mapbox\Unity\Utilities\TelemetryConfigurationButton.cs" />
      <Compile Include="Assets\Mapbox\Unity\Utilities\VectorExtensions.cs" />
+     <Compile Include="Assets\scripts\AddPoi.cs" />
      <Compile Include="Assets\scripts\AnimController.cs" />
      <Compile Include="Assets\scripts\cameraView.cs" />
      <Compile Include="Assets\scripts\LocationServices.cs" />

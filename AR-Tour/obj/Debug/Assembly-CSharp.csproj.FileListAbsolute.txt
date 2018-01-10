@@ -37,3 +37,7 @@ C:\Users\coope_000\Desktop\AR_tour\AR-Tour\obj\Debug\Assembly-CSharp.csprojResol
 C:\Users\coope_000\Desktop\AR_tour\AR-Tour\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 C:\Users\coope_000\Desktop\AR_tour\AR-Tour\obj\Debug\Assembly-CSharp.dll
 C:\Users\coope_000\Desktop\AR_tour\AR-Tour\obj\Debug\Assembly-CSharp.pdb
+C:\Users\coope_000\Desktop\artour\AR-Tour\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\coope_000\Desktop\artour\AR-Tour\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\coope_000\Desktop\artour\AR-Tour\obj\Debug\Assembly-CSharp.dll
+C:\Users\coope_000\Desktop\artour\AR-Tour\obj\Debug\Assembly-CSharp.pdb
