@@ -39,10 +39,14 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 =======
   m_IndirectSpecularColor: {r: 0.44657874, g: 0.4964127, b: 0.5748172, a: 1}
 >>>>>>> ar paw fix
+=======
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.4964127, b: 0.5748172, a: 1}
+>>>>>>> 657f7b9a73961e8232fe4680edc1359eda3cd2d4
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1501,10 +1505,14 @@ RectTransform:
   m_GameObject: {fileID: 499392690}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: -21816.582}
 =======
   m_LocalPosition: {x: 1586.015, y: 594.5309, z: -21816.582}
 >>>>>>> ar paw fix
+=======
+  m_LocalPosition: {x: 1586.015, y: 594.5309, z: -21816.582}
+>>>>>>> 657f7b9a73961e8232fe4680edc1359eda3cd2d4
   m_LocalScale: {x: 11.481725, y: 11.481727, z: 11.481727}
   m_Children: []
   m_Father: {fileID: 629015610}
@@ -2434,7 +2442,10 @@ RectTransform:
   m_LocalRotation: {x: 0.53729963, y: -0, z: -0, w: 0.8433915}
   m_LocalPosition: {x: 0, y: 20.426691, z: -6.8054333}
   m_LocalScale: {x: 0.02332472, y: 0.02332472, z: 0.02332472}
+<<<<<<< HEAD
 >>>>>>> ar paw fix
+=======
+>>>>>>> 657f7b9a73961e8232fe4680edc1359eda3cd2d4
   m_Children:
   - {fileID: 1595637615}
   - {fileID: 60900896}
