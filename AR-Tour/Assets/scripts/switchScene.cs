@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class switchScene : MonoBehaviour {
 
 
-    public GameObject historyMenu;
+    
 
 
     public void SwitchScene(string scene)
@@ -14,9 +14,5 @@ public class switchScene : MonoBehaviour {
         SceneManager.LoadScene(scene);
     }
 
-    public void closeHistory()
-    {
-        historyMenu.SetActive(false);
-    }
 
 }
