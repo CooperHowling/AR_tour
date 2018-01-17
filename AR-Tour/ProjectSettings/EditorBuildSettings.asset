@@ -18,8 +18,11 @@ EditorBuildSettings:
     path: Assets/scenes/Splash.unity
     guid: afb5e0624375e0442b005c9353accb2e
   - enabled: 0
-    path: Assets/scenes/ArBark.unity
-    guid: 75eca880e244e7840828a013bae8be9d
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/scenes/simpleAr.unity
     guid: 5073fcd3046e3c14394b51f2883d78a1
+  - enabled: 1
+    path: Assets/scenes/MicroBioAr.unity
+    guid: b89a009b20e86174ebe5b3d10856883f
