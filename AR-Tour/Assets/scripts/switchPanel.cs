@@ -12,17 +12,22 @@ public class switchPanel : MonoBehaviour
     public void activateInfo()
     {
         infoPanel.SetActive(true);
+        picturePanel.SetActive(false);
+        videoPanel.SetActive(false);
     }
 
     public void closeInfo()
     {
         infoPanel.SetActive(false);
+        
     }
 
     public void activatePicture()
     {
         picturePanel.SetActive(true);
-        print("hello");
+        infoPanel.SetActive(false);
+        videoPanel.SetActive(false);
+        
     }
 
     public void closePictrue()
@@ -33,6 +38,8 @@ public class switchPanel : MonoBehaviour
     public void activateVideo()
     {
         videoPanel.SetActive(true);
+        picturePanel.SetActive(false);
+        infoPanel.SetActive(false);
     }
 
     public void closeVideo()
