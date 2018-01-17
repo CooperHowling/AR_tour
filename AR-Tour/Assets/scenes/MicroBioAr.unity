@@ -1899,7 +1899,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1854099255}
+      - m_Target: {fileID: 1854099261}
         m_MethodName: openPic
         m_Mode: 1
         m_Arguments:
@@ -4397,7 +4397,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1854099255}
+      - m_Target: {fileID: 1854099261}
         m_MethodName: openInfo
         m_Mode: 1
         m_Arguments:
@@ -4589,6 +4589,7 @@ GameObject:
   - component: {fileID: 1854099257}
   - component: {fileID: 1854099256}
   - component: {fileID: 1854099254}
+  - component: {fileID: 1854099261}
   - component: {fileID: 1854099255}
   m_Layer: 5
   m_Name: 3d canvas
@@ -4718,6 +4719,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1854099261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1854099253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d46244ecd6b6890479227b2db0e7a5f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infoPanel: {fileID: 478525305}
+  picPanel: {fileID: 454216264}
+  vidPanel: {fileID: 1335002658}
 --- !u!1 &1872545016
 GameObject:
   m_ObjectHideFlags: 0

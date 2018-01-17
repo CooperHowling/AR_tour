@@ -379,6 +379,7 @@
      <Compile Include="Assets\scripts\RotateObject.cs" />
      <Compile Include="Assets\scripts\streamVideo.cs" />
      <Compile Include="Assets\scripts\switchBarkImage.cs" />
+     <Compile Include="Assets\scripts\SwitchPanel.cs" />
      <Compile Include="Assets\scripts\switchScene.cs" />
      <Compile Include="Assets\scripts\TapOBJ.cs" />
      <Compile Include="Assets\scripts\TileManager.cs" />
