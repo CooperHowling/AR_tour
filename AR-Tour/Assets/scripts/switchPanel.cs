@@ -21,7 +21,8 @@ public class switchPanel : MonoBehaviour
 
     public void activatePicture()
     {
-        picturePanel.SetActive(true); 
+        picturePanel.SetActive(true);
+        print("hello");
     }
 
     public void closePictrue()
