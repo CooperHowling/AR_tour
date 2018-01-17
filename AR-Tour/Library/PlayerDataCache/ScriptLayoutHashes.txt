@@ -1,6 +1,13 @@
 Android
 SceneListBegin?
+<<<<<<< HEAD
 Assets/scenes/MicroBioAr.unity
+=======
+Assets/scenes/Tour Map.unity
+Assets/scenes/Information.unity
+Assets/scenes/Splash.unity
+Assets/scenes/simpleAr.unity
+>>>>>>> 2040cec7a89616ff7ba09c95c8cb58fbd22b4ba4
 SceneListEnd?
 109bc24ceb27d134c3dca242e524fca6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Components.VertexDebugger
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Examples.HighlightFeature
@@ -295,9 +302,11 @@ ab32795e4d805b58f47e2b98596aa658 Assembly-CSharp.dll:Mapbox.Unity.Map.RangeTileP
 33a85b2ae614bca5faddeff171651e7f Assembly-CSharp.dll:Mapbox.Unity.Location.DeviceLocationProvider
 ae9dce8d90505348dcfb3009a17849b5 Assembly-CSharp.dll:Mapbox.Unity.Map.MapAtSpecificLocation
 c93728c2de7be1bdc64a28d1233525e7 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.SnapTerrainRaycastModifier
+2127fc8b7af2c07f52488e2fc1c9d066 Assembly-CSharp.dll:.POIColorChange
 f4322fc0f64b38fe7809a75cfdc78866 Assembly-CSharp.dll:Mapbox.Examples.Voxels.VoxelTile
 65ce61bce6a9cc1cdde99a2eb764fefc Assembly-CSharp.dll:Mapbox.Examples.ObjectInspectorModifier
 971587ca2df0c4c8c8b238f96f6a6f33 Assembly-CSharp.dll:Mapbox.Unity.Location.TransformLocationProvider
+<<<<<<< HEAD
 b6a76f6c01e835610f90b373854a9aa7 Assembly-CSharp.dll:.AddPoi
 44a3dfd1a8522003ea79fe6180df91d5 Assembly-CSharp.dll:Mapbox.Unity.Map.DynamicZoomMap
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
@@ -335,8 +344,13 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
+=======
+cb6deb42eb2a206344587ff254ebcdad Assembly-CSharp.dll:.AddPoi
+44a3dfd1a8522003ea79fe6180df91d5 Assembly-CSharp.dll:Mapbox.Unity.Map.DynamicZoomMap
+5482ae07849dbd031dc3b264d359a58c Assembly-CSharp.dll:.clickPoi
+>>>>>>> 2040cec7a89616ff7ba09c95c8cb58fbd22b4ba4
 fd1441f74fdb9cec10ac22c943c596cd Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.LayerModifier
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.switchScene
+cfee07c3fa58751b816cc50fc0cc74b5 Assembly-CSharp.dll:.switchScene
 a1d41d38fc0ffc365dc294688f92cb95 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Filters.TypeFilter
 65ce61bce6a9cc1cdde99a2eb764fefc Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.MeshModifier
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
