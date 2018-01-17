@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class forceHorizontal : MonoBehaviour {
+public class ForceHorizontal : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
