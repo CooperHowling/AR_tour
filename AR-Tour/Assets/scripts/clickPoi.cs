@@ -11,12 +11,12 @@ public class clickPoi : MonoBehaviour
     public GameObject historyMenu;
 
 
-
-
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
+
+            
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         
@@ -50,6 +50,7 @@ public class clickPoi : MonoBehaviour
                         if (name == "history")
                         {
                             historyMenu.SetActive(true);
+
                         }
 
                     }

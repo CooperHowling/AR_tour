@@ -5,9 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class switchScene : MonoBehaviour {
 
-    public GameObject barkMenu;
-    public GameObject uncMenu;
-    public GameObject historyMenu;
+
+    
 
 
     public void SwitchScene(string scene)
@@ -15,11 +14,5 @@ public class switchScene : MonoBehaviour {
         SceneManager.LoadScene(scene);
     }
 
-    public void CloseMenu()
-    {
-        barkMenu.SetActive(false);
-        uncMenu.SetActive(false);
-        historyMenu.SetActive(false);
-    }
 
 }

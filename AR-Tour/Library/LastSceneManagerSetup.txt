@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/simpleAr.unity
+- path: Assets/scenes/FullScreenPlayer.unity
   isLoaded: 1
   isActive: 1
