@@ -235,7 +235,8 @@ cb6deb42eb2a206344587ff254ebcdad Assembly-CSharp.dll:.AddPoi
 44a3dfd1a8522003ea79fe6180df91d5 Assembly-CSharp.dll:Mapbox.Unity.Map.DynamicZoomMap
 5482ae07849dbd031dc3b264d359a58c Assembly-CSharp.dll:.clickPoi
 fd1441f74fdb9cec10ac22c943c596cd Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.LayerModifier
-d0365ee47959b0cc40c41cc763f9c93b Assembly-CSharp.dll:.switchScene
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.switchScene
 a1d41d38fc0ffc365dc294688f92cb95 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Filters.TypeFilter
 65ce61bce6a9cc1cdde99a2eb764fefc Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.MeshModifier
 658bf8334790d2ed35310347cc5219d9 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
+d6ebd90403f7da44ff28cbaa84b6d705 Assembly-CSharp.dll:.poiMenuSelections
