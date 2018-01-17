@@ -286,7 +286,6 @@
      <Compile Include="Assets\scripts\POIColorChange.cs" />
      <Compile Include="Assets\scripts\streamVideo.cs" />
      <Compile Include="Assets\scripts\switchBarkImage.cs" />
-     <Compile Include="Assets\scripts\switchPanel.cs" />
      <Compile Include="Assets\scripts\switchScene.cs" />
      <Compile Include="Assets\scripts\TileManager.cs" />
      <None Include="Assets\Helpers\AlphaMask.shader" />
