@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/Tour Map.unity
     guid: daea383cc004f9546a1eb6dfec59f258
-  - enabled: 1
-    path: Assets/scenes/radialMenu.unity
-    guid: 9c61e56f11283474f9e9c403407461c6
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/scenes/Information.unity
     guid: a3f84af7acf84be4ea44d9c72b779fa3
