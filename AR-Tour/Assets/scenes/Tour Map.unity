@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -10926,7 +10926,7 @@ GameObject:
   - component: {fileID: 1618016046}
   - component: {fileID: 1618016047}
   m_Layer: 0
-  m_Name: UNC
+  m_Name: ARTS
   m_TagString: unc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10958,8 +10958,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Map: {fileID: 1572976570}
-  Lat: 49.9412
-  Lon: -119.3965
+  Lat: 49.9392
+  Lon: -119.3970
   poiObject: {fileID: 2116688522}
 --- !u!23 &1618016047
 MeshRenderer:
