@@ -183,7 +183,6 @@ a2efb0db652b8114d1ae7dd9a600d626 Assembly-CSharp.dll:UnityStandardAssets.CrossPl
 fe76270bd84ec3b6f2f6f92c69cf69da Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
 307d9f491fea791345eb6aa66e84c179 Assembly-CSharp.dll:UnityStandardAssets._2D.CameraFollow
 4687db7a0a4f25cd0ebb1317128c81a7 Assembly-CSharp.dll:Mapbox.Examples.Playground.ReverseGeocoderExample
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ForceHorizontal
 96e7294f11e4ae1fe77dd4bcd658b56d Assembly-CSharp.dll:UnityStandardAssets.Cameras.LookatTarget
 94cd6299c641309feb6b6f8f3bcd2959 Assembly-CSharp.dll:Mapbox.Unity.Map.DynamicZoomTileProvider
 b3d9ab5f9e93dc1c2b59e44e0431671d Assembly-CSharp.dll:.menuSlide
@@ -277,6 +276,7 @@ b15500bf1b76bbde5922a3b83fc39627 Assembly-CSharp.dll:Mapbox.Examples.Playground.
 db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp.dll:UnityStandardAssets.Utility.FollowTarget
 600bf2432747463c84424edccb3c1d05 Assembly-CSharp.dll:UnityStandardAssets._2D.Camera2DFollow
 6ff378b4630d84f63e95fc3d2b45eaf7 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.TextureModifier
+e3192dede0609ddf34d85b986648a483 Assembly-CSharp.dll:.SwitchPanel
 a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.TouchPad
 03fadd777262cdaa131ac84a2e4aaa22 Assembly-CSharp.dll:Mapbox.Unity.Location.EditorLocationProvider
 b7f557c19cce3b6f593e26edfe1ec859 Assembly-CSharp.dll:UnityStandardAssets.Vehicles.Ball.Ball
@@ -313,4 +313,3 @@ a1d41d38fc0ffc365dc294688f92cb95 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration
 a412f64ff4e4667098f82b7fa0bf56e2 Assembly-CSharp.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 658bf8334790d2ed35310347cc5219d9 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
-e3192dede0609ddf34d85b986648a483 Assembly-CSharp.dll:.SwitchPanel

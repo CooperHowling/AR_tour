@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class clickPoi : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class clickPoi : MonoBehaviour
     public GameObject uncMenu;
     public GameObject historyMenu;
 
-
+    
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -36,10 +37,15 @@ public class clickPoi : MonoBehaviour
                         //PrintName(hit.transform.gameObject);
                         LaunchIntoAir(rb);
                         print(name);
-                        
-                        if(name == "eme")
+
+                        if (name == "science")
                         {
-                            barkMenu.SetActive(true);
+                            SceneManager.LoadScene("MicroBioAr",LoadSceneMode.Single);
+                        }
+
+                        if (name == "eme")
+                        {
+                            SceneManager.LoadScene("simpleAr",LoadSceneMode.Single);
                         }
 
                         if (name == "unc")

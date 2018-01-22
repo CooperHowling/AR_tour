@@ -617,6 +617,7 @@
     <Compile Include="Assets\scripts\cameraView.cs" />
     <Compile Include="Assets\scripts\clickPoi.cs" />
     <Compile Include="Assets\scripts\forceHorizontal.cs" />
+    <Compile Include="Assets\scripts\ForcePortrait.cs" />
     <Compile Include="Assets\scripts\LocationServices.cs" />
     <Compile Include="Assets\scripts\marklessAr.cs" />
     <Compile Include="Assets\scripts\MenuButtonScript.cs" />
@@ -624,9 +625,12 @@
     <Compile Include="Assets\scripts\PlayerTileProvider.cs" />
     <Compile Include="Assets\scripts\POIColorChange.cs" />
     <Compile Include="Assets\scripts\poiMenuSelections.cs" />
+    <Compile Include="Assets\scripts\RotateObject.cs" />
     <Compile Include="Assets\scripts\streamVideo.cs" />
     <Compile Include="Assets\scripts\switchBarkImage.cs" />
+    <Compile Include="Assets\scripts\SwitchPanel.cs" />
     <Compile Include="Assets\scripts\switchScene.cs" />
+    <Compile Include="Assets\scripts\TapOBJ.cs" />
     <Compile Include="Assets\scripts\TileManager.cs" />
   </ItemGroup>
   <ItemGroup>
