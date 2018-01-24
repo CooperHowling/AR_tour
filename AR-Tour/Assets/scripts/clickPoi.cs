@@ -7,11 +7,14 @@ public class clickPoi : MonoBehaviour
 {
 
     public float force = 5;
-    public GameObject barkMenu;
     public GameObject uncMenu;
     public GameObject historyMenu;
+    public GameObject eescMenu;
+    public GameObject ecologyMenu;
+    public GameObject compsciMenu;
+    public GameObject anthroMenu;
+    public GameObject resMenu;
 
-    
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -37,17 +40,25 @@ public class clickPoi : MonoBehaviour
                         //PrintName(hit.transform.gameObject);
                         LaunchIntoAir(rb);
                         print(name);
-
-                        if (name == "science")
+                //AR POIs
+                        if (name == "bio")
                         {
                             SceneManager.LoadScene("MicroBioAr",LoadSceneMode.Single);
                         }
 
-                        if (name == "eme")
+                        if (name == "bark")
                         {
                             SceneManager.LoadScene("simpleAr",LoadSceneMode.Single);
                         }
-
+                        if (name == "psych")
+                        {
+                            SceneManager.LoadScene("PsychAr", LoadSceneMode.Single);
+                        }
+                        if (name == "chem")
+                        {
+                            SceneManager.LoadScene("ChemAr", LoadSceneMode.Single);
+                        }
+                 //Non AR POIs
                         if (name == "unc")
                         {
                             uncMenu.SetActive(true);
@@ -56,6 +67,31 @@ public class clickPoi : MonoBehaviour
                         if (name == "history")
                         {
                             historyMenu.SetActive(true);
+
+                        }
+                        if (name == "eesc")
+                        {
+                            eescMenu.SetActive(true);
+
+                        }
+                        if (name == "ecology")
+                        {
+                            ecologyMenu.SetActive(true);
+
+                        }
+                        if (name == "compsci")
+                        {
+                            compsciMenu.SetActive(true);
+
+                        }
+                        if (name == "anthro")
+                        {
+                            anthroMenu.SetActive(true);
+
+                        }
+                        if (name == "res")
+                        {
+                            resMenu.SetActive(true);
 
                         }
 
