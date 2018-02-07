@@ -23,3 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/simpleAr.unity
     guid: 5073fcd3046e3c14394b51f2883d78a1
+  - enabled: 1
+    path: Assets/scenes/Loading.unity
+    guid: 86bb9e4f4cdba3a4fb9eaaac35b717f9

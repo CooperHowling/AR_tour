@@ -278,6 +278,8 @@
      <Compile Include="Assets\scripts\AnimController.cs" />
      <Compile Include="Assets\scripts\cameraView.cs" />
      <Compile Include="Assets\scripts\clickPoi.cs" />
+     <Compile Include="Assets\scripts\LoadingScreenManager.cs" />
+     <Compile Include="Assets\scripts\LoadTargetSceneButton.cs" />
      <Compile Include="Assets\scripts\LocationServices.cs" />
      <Compile Include="Assets\scripts\marklessAr.cs" />
      <Compile Include="Assets\scripts\MenuButtonScript.cs" />
@@ -362,7 +364,7 @@
  <HintPath>E:/Programs/Unity Engine/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Mapbox.Json">
- <HintPath>E:/Alex/Documents/GitHub/AR_tour/AR-Tour/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+ <HintPath>E:/Alex/Documents/GitHub/AR_Tour 5/AR_tour/AR-Tour/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Alexander/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
