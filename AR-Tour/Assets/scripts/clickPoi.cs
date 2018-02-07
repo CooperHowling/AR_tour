@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ClickPoi : MonoBehaviour
+public class clickPoi : MonoBehaviour
 {
 
     public float force = 5;
@@ -12,9 +12,8 @@ public class ClickPoi : MonoBehaviour
     public GameObject historyMenu;
     public GameObject eescMenu;
     public GameObject ecologyMenu;
-    public GameObject compsciMenu;
-    public GameObject anthroMenu;
-    public GameObject resMenu;
+    public GameObject econMenu;
+    public GameObject philMenu;
 
     
     Dictionary<string, GameObject> PoiDict = new Dictionary<string, GameObject>();
@@ -45,7 +44,9 @@ public class ClickPoi : MonoBehaviour
                         //PrintName(hit.transform.gameObject);
                         LaunchIntoAir(rb);
                         print(name);
-                        //AR POIs
+                        
+                        
+                         //AR POIs
                         try
                         {
                             //open scene AR scene if available
@@ -54,19 +55,20 @@ public class ClickPoi : MonoBehaviour
                         {
 
                         }
-
+                        
                         //Non AR POIs
                         //add all points to a dictionary for accessing
-                        PoiDict.Add("unc", uncMenu);
-                        PoiDict.Add("history", historyMenu);
-                        PoiDict.Add("eesc", eescMenu);
-                        PoiDict.Add("ecology", ecologyMenu);
-                        PoiDict.Add("compsci", compsciMenu);
-                        PoiDict.Add("anthro", anthroMenu);
-                        PoiDict.Add("res", resMenu);
+                        PoiDict.Add("UNC", uncMenu);
+                        PoiDict.Add("History", historyMenu);
+                        PoiDict.Add("EESC", eescMenu);
+                        PoiDict.Add("Ecology", ecologyMenu);
+                        PoiDict.Add("Econ", econMenu);
+                        PoiDict.Add("Phil", philMenu);
 
                         //set clicked menu active
                         PoiDict[name].SetActive(true);
+                     
+                        
 
                         /*
                         if (name == "unc")
@@ -74,7 +76,7 @@ public class ClickPoi : MonoBehaviour
                             uncMenu.SetActive(true);
                         }
                         
-                        if (name == "history")
+                        if (name == "History")
                         {
                             historyMenu.SetActive(true);
 
