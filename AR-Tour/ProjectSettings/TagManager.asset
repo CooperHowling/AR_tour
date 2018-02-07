@@ -7,6 +7,7 @@ TagManager:
   - poi
   - bark
   - unc
+  - distanceText
   layers:
   - Default
   - TransparentFX
