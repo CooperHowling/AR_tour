@@ -622,6 +622,7 @@
     <Compile Include="Assets\scripts\AnimController.cs" />
     <Compile Include="Assets\scripts\cameraView.cs" />
     <Compile Include="Assets\scripts\clickPoi.cs" />
+    <Compile Include="Assets\scripts\compSciRotateBox.cs" />
     <Compile Include="Assets\scripts\forceHorizontal.cs" />
     <Compile Include="Assets\scripts\ForcePortrait.cs" />
     <Compile Include="Assets\scripts\LocationServices.cs" />
