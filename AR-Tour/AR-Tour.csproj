@@ -632,6 +632,7 @@
     <Compile Include="Assets\scripts\PlayerTileProvider.cs" />
     <Compile Include="Assets\scripts\POIColorChange.cs" />
     <Compile Include="Assets\scripts\poiMenuSelections.cs" />
+    <Compile Include="Assets\scripts\robotJump.cs" />
     <Compile Include="Assets\scripts\RotateObject.cs" />
     <Compile Include="Assets\scripts\streamVideo.cs" />
     <Compile Include="Assets\scripts\switchBarkImage.cs" />
