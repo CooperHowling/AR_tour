@@ -406,6 +406,7 @@ GameObject:
   - component: {fileID: 101911374}
   - component: {fileID: 101911373}
   - component: {fileID: 101911372}
+  - component: {fileID: 101911377}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -489,6 +490,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &101911377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 101911371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd19de6fe6d9e4c49b944cdeeddd72d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &175776490
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,7 +1326,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 101911377}
         m_MethodName: SwitchScene
         m_Mode: 5
         m_Arguments:
@@ -1346,7 +1358,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: aa4cc76c5e1a1244095c1a3788b2eab3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f058cac4f14135e4398cd723e7b6de32, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -16,7 +16,7 @@ public class clickPoi : MonoBehaviour
     public GameObject philMenu;
 
     
-    Dictionary<string, GameObject> PoiDict = new Dictionary<string, GameObject>();
+   // Dictionary<string, GameObject> PoiDict = new Dictionary<string, GameObject>();
     
 
     private void Update()
@@ -46,18 +46,23 @@ public class clickPoi : MonoBehaviour
                         print(name);
                         
                         
-                         //AR POIs
+                        //  AR POIs
+                        /* 
+                        
                         try
                         {
-                            //open scene AR scene if available
+                            
                             SceneManager.LoadScene(name, LoadSceneMode.Single);
                         }catch(System.Exception )
                         {
 
                         }
+
+                        */
                         
                         //Non AR POIs
                         //add all points to a dictionary for accessing
+                        /*
                         PoiDict.Add("UNC", uncMenu);
                         PoiDict.Add("History", historyMenu);
                         PoiDict.Add("EESC", eescMenu);
@@ -67,46 +72,133 @@ public class clickPoi : MonoBehaviour
 
                         //set clicked menu active
                         PoiDict[name].SetActive(true);
-                     
+                        */
                         
 
-                        /*
+                        // Static Scences
                         if (name == "unc")
                         {
                             uncMenu.SetActive(true);
+
+                            historyMenu.SetActive(false);
+                            eescMenu.SetActive(false);
+                            ecologyMenu.SetActive(false);
+                            philMenu.SetActive(false);
+                            econMenu.SetActive(false);
                         }
                         
-                        if (name == "History")
+                        if (name == "history")
                         {
                             historyMenu.SetActive(true);
+
+                            uncMenu.SetActive(false);
+                            eescMenu.SetActive(false);
+                            ecologyMenu.SetActive(false);
+                            philMenu.SetActive(false);
+                            econMenu.SetActive(false);
 
                         }
                         if (name == "eesc")
                         {
                             eescMenu.SetActive(true);
 
+                            historyMenu.SetActive(false);
+                            uncMenu.SetActive(false);
+                            ecologyMenu.SetActive(false);
+                            philMenu.SetActive(false);
+                            econMenu.SetActive(false); 
+
                         }
                         if (name == "ecology")
                         {
                             ecologyMenu.SetActive(true);
 
-                        }
-                        if (name == "compsci")
-                        {
-                            compsciMenu.SetActive(true);
+                            eescMenu.SetActive(false);
+                            historyMenu.SetActive(false);
+                            uncMenu.SetActive(false);
+                            philMenu.SetActive(false);
+                            econMenu.SetActive(false); 
 
                         }
-                        if (name == "anthro")
+                        if (name == "phil")
                         {
-                            anthroMenu.SetActive(true);
+                            philMenu.SetActive(true);
+
+                            ecologyMenu.SetActive(false);
+                            eescMenu.SetActive(false);
+                            historyMenu.SetActive(false);
+                            uncMenu.SetActive(false);
+                            econMenu.SetActive(false);
 
                         }
-                        if (name == "res")
+                        if (name == "econ")
                         {
-                            resMenu.SetActive(true);
+                            econMenu.SetActive(true);
+
+                            philMenu.SetActive(false);
+                            ecologyMenu.SetActive(false);
+                            eescMenu.SetActive(false);
+                            historyMenu.SetActive(false);
+                            uncMenu.SetActive(false);                            
 
                         }
-                        */
+                        // Ar Scenes
+                        if (name == "simpleAr")
+                        {
+                            try
+                            { 
+                                SceneManager.LoadScene(name, LoadSceneMode.Single);
+                            }
+                                catch (System.Exception)
+                            {
+
+                            }
+                        }
+                        if (name == "ChemAr")
+                        {
+                            try
+                            {
+                                SceneManager.LoadScene(name, LoadSceneMode.Single);
+                            }
+                            catch (System.Exception)
+                            {
+
+                            }
+                        }
+                        if (name == "PsychAr")
+                        {
+                            try
+                            {
+                                SceneManager.LoadScene(name, LoadSceneMode.Single);
+                            }
+                            catch (System.Exception)
+                            {
+
+                            }
+                        }
+                        if (name == "MicroBioAr")
+                        {
+                            try
+                            {
+                                SceneManager.LoadScene(name, LoadSceneMode.Single);
+                            }
+                            catch (System.Exception)
+                            {
+
+                            }
+                        }
+                        if (name == "ComputerScienceAr")
+                        {
+                            try
+                            {
+                                SceneManager.LoadScene(name, LoadSceneMode.Single);
+                            }
+                            catch (System.Exception)
+                            {
+
+                            }
+                        }
+
                     }
                 }
             }
