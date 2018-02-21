@@ -314,9 +314,11 @@ d2c3a05474ea70332429208b2401eeff Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration
 65ce61bce6a9cc1cdde99a2eb764fefc Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierBase
 6ff378b4630d84f63e95fc3d2b45eaf7 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.TextureMonoBehaviourModifier
 2b3291da89200462b2545a02cbc12439 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Factories.MeshFactory
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.compSciRotateBox
 9ad1e987a38219f49ab46c17f6fdcd04 Assembly-CSharp.dll:.RotateBySwipe
 ab32795e4d805b58f47e2b98596aa658 Assembly-CSharp.dll:Mapbox.Unity.Map.RangeTileProvider
 33a85b2ae614bca5faddeff171651e7f Assembly-CSharp.dll:Mapbox.Unity.Location.DeviceLocationProvider
+2716fc22dbe4918eea100a5410bb6b29 Assembly-CSharp.dll:.robotJump
 ae9dce8d90505348dcfb3009a17849b5 Assembly-CSharp.dll:Mapbox.Unity.Map.MapAtSpecificLocation
 c93728c2de7be1bdc64a28d1233525e7 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.SnapTerrainRaycastModifier
 d2a2bd333db22f480a8589e167314ecc Assembly-CSharp.dll:Vuforia.UserDefinedTargetBuildingBehaviour
@@ -340,4 +342,4 @@ a412f64ff4e4667098f82b7fa0bf56e2 Assembly-CSharp.dll:UnityStandardAssets._2D.Pla
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 7cac06ac0eaa7257b831c29e4455ce1b Assembly-CSharp.dll:Vuforia.VuforiaConfiguration
 658bf8334790d2ed35310347cc5219d9 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SetARinPlace
+08ed8d968248360ba554fb80168983c0 Assembly-CSharp.dll:.CollisionComputerScienceAR
