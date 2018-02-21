@@ -306,6 +306,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DogPack\Examples\Scripts\Animate.cs" />
+    <Compile Include="Assets\DogPack\Examples\Scripts\ButtonResponder.cs" />
+    <Compile Include="Assets\DogPack\Examples\Scripts\ChangeBlendShape.cs" />
+    <Compile Include="Assets\DogPack\Examples\Scripts\ChangeButtonText.cs" />
+    <Compile Include="Assets\DogPack\Examples\Scripts\ChangeShader.cs" />
+    <Compile Include="Assets\DogPack\Examples\Scripts\MouseOrbitImprovedMod.cs" />
     <Compile Include="Assets\Helpers\geoConverter.cs" />
     <Compile Include="Assets\Helpers\RotateBySwipe.cs" />
     <Compile Include="Assets\LightShaft\Scripts\DetectInternetSpeed.cs" />
@@ -676,8 +682,13 @@
     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+    <Compile Include="Assets\Yurowm\Demo\Scripts\Actions.cs" />
+    <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterPanel.cs" />
+    <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterViewer.cs" />
+    <Compile Include="Assets\Yurowm\Demo\Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\DogPack\Examples\Description.txt" />
     <None Include="Assets\Helpers\AlphaMask.shader" />
     <None Include="Assets\LightShaft\Shaders\ViewInside.shader" />
     <None Include="Assets\LightShaft\Standard Assets\Cameras\CameraGuidelines.txt" />
@@ -704,6 +715,7 @@
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+    <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
     <None Include="Assets\license_3rdpartynotice.txt" />
     <None Include="Assets\link.xml" />
     <None Include="Assets\readme_SDK.txt" />

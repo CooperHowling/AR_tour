@@ -378,6 +378,7 @@
     <Compile Include="Assets\Vuforia\Editor\Scripts\VuforiaConfigurationEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\DogPack\Examples\Description.txt" />
     <None Include="Assets\Helpers\AlphaMask.shader" />
     <None Include="Assets\LightShaft\Shaders\ViewInside.shader" />
     <None Include="Assets\LightShaft\Standard Assets\Cameras\CameraGuidelines.txt" />
@@ -404,6 +405,7 @@
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+    <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
     <None Include="Assets\license_3rdpartynotice.txt" />
     <None Include="Assets\link.xml" />
     <None Include="Assets\readme_SDK.txt" />
