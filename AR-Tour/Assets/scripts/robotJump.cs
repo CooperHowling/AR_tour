@@ -6,8 +6,8 @@ public class robotJump : MonoBehaviour
 {
 
 
-    float force = 70;
-    float forceDwn = -20; 
+    float force = 50;
+    float forceDwn = -50; 
     public Rigidbody rb;
     float pose;
     float upPosition;
