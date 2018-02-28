@@ -25,7 +25,8 @@ GameObject:
   - component: {fileID: 64808942526188720}
   - component: {fileID: 23881689099756256}
   - component: {fileID: 82552107621399858}
-  m_Layer: 0
+  - component: {fileID: 114883150247809602}
+  m_Layer: 5
   m_Name: Simple Playback
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +41,7 @@ Transform:
   m_GameObject: {fileID: 1229350622160358}
   m_LocalRotation: {x: -0, y: -0.7071068, z: 0.70710677, w: 0}
   m_LocalPosition: {x: 0, y: -2.4, z: 28.4}
-  m_LocalScale: {x: 2.00372, y: 1, z: 1}
+  m_LocalScale: {x: 80.354645, y: 40.10266, z: 40.10266}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -196,6 +197,17 @@ MonoBehaviour:
   unityVideoPlayer: {fileID: 328832678929610070}
   playOnStart: 1
   youtubeLogo: {fileID: 0}
+--- !u!114 &114883150247809602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229350622160358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749b2bd6d78d472449b8ac3e5da7b06d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!328 &328832678929610070
 VideoPlayer:
   m_ObjectHideFlags: 1
@@ -220,7 +232,7 @@ VideoPlayer:
   - {fileID: 82552107621399858}
   m_DirectAudioVolumes:
   - 1
-  m_Url: 
+  m_Url: https://r4---sn-ni5f-ttje.googlevideo.com/videoplayback?ei=Z9-IWuXFBsrU_APq3ZaIDA&ms=au,rdu&mt=1518919358&mv=m&pl=22&ip=24.71.118.94&id=o-APZN3mI6Ydt0wf14jnBm2tHJRrovyH8Fhbsheg4vdLci&mm=31,29&mn=sn-ni5f-ttje,sn-nx57ynls&clen=13482740&sparams=clen,dur,ei,gir,id,initcwndbps,ip,ipbits,itag,lmt,mime,mm,mn,ms,mv,pl,ratebypass,requiressl,source,expire&initcwndbps=1313750&ipbits=0&c=WEB&lmt=1499925291763643&source=youtube&dur=200.504&requiressl=yes&gir=yes&signature=2E54B708F1771B0FDC2E84E42EAE7A54249066EB.D5D4E7978D0E8BBF3852E2F329C45B147E9D8E2B&key=yt6&itag=18&expire=1518941127&ratebypass=yes&fvip=5&mime=video/mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
