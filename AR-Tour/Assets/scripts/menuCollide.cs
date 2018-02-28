@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class menuCollide : MonoBehaviour {
 
@@ -10,6 +11,8 @@ public class menuCollide : MonoBehaviour {
     public GameObject ecologyMenu;
     public GameObject philMenu;
     public GameObject econMenu;
+
+    public int compsci;
 
     void OnCollision(Collision col)
     {
@@ -80,6 +83,11 @@ public class menuCollide : MonoBehaviour {
             historyMenu.SetActive(false);
             uncMenu.SetActive(false);
 
+        }
+        if(col.gameObject.name == "ComputerScienceAr")
+        {
+            SceneManager.LoadScene(compsci);
+    
         }
     }
 
