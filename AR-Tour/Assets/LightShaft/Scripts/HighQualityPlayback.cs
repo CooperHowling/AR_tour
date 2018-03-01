@@ -22,8 +22,9 @@ public class HighQualityPlayback : MonoBehaviour {
 
     RequestResolver resolver;
 
-    public void Start(){
-        videoId = VideoNameDontDestroy.VideoCode;
+	public void OnEnable(){  // USED TO BE Start() ;
+        
+		videoId = VideoNameDontDestroy.VideoCode; //Custom Code to get video to play Static String
 
         resolver = gameObject.AddComponent<RequestResolver>();
         if (Application.isMobilePlatform)
