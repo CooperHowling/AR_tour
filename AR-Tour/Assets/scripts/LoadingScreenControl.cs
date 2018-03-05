@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Mapbox.Unity.Map;
+using Mapbox.Unity.Utilities;
+using Mapbox.Utils;
 
 public class LoadingScreenControl : MonoBehaviour {
 
     public GameObject loadObj;
     public Slider slider;
-
 
     AsyncOperation async;
 
@@ -24,6 +26,7 @@ public class LoadingScreenControl : MonoBehaviour {
         loadObj.SetActive(true);
         async = SceneManager.LoadSceneAsync(sceneNum);
         async.allowSceneActivation = false;
+       
 
         while(async.isDone == false)
         {

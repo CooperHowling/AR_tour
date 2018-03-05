@@ -84,6 +84,7 @@ namespace Mapbox.Examples
 		{
             //multiply movement by a factor of 25
 			transform.position = Vector3.Lerp(transform.position, _targetPosition * 25, Time.deltaTime * _positionFollowFactor);
+
 		}
 	}
 }
