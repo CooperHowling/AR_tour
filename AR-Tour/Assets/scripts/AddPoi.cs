@@ -35,8 +35,16 @@ public class AddPoi : MonoBehaviour
             //also makes it faster to place them
             poiObject.transform.position = new Vector3((float)pos.x * 25, 0, (float)pos.y * 25);
             poiPos = poiObject.transform.position;
-            Debug.Log(poiPos + " Points");
-            
+          
+
+            //unc finishes last
+            //destroy loading screen
+            if (poiObject.name.Contains("unc"))
+            {
+                GameObject loadingScreen = GameObject.Find("LoadingScreen");
+                Destroy(loadingScreen);
+            }
+
         };
     }
 
