@@ -1730,6 +1730,7 @@ GameObject:
   - component: {fileID: 587371059}
   - component: {fileID: 587371061}
   - component: {fileID: 587371060}
+  - component: {fileID: 587371062}
   m_Layer: 5
   m_Name: footprints
   m_TagString: Untagged
@@ -1795,6 +1796,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 587371058}
+--- !u!95 &587371062
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 587371058}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4e36510200a5bfd49845f99c3704ef9b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &635745194
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,6 +2477,7 @@ MonoBehaviour:
   doggo6: {fileID: 21300000, guid: f10038b261e8ae94784603283b4a10ce, type: 3}
   doggo7: {fileID: 21300000, guid: 9fef47ba97355ac45b0fcf23f92bb58a, type: 3}
   doggo8: {fileID: 21300000, guid: e54d274d97497a24e8ed3db8969b450b, type: 3}
+  doggo9: {fileID: 0}
   Main: {fileID: 1116974757}
 --- !u!114 &1116974759
 MonoBehaviour:
@@ -3949,6 +3968,27 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f5974119fa5893644b1aedc0b6fee3c6, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1968704650 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: f5974119fa5893644b1aedc0b6fee3c6, type: 3}
+  m_PrefabInternal: {fileID: 1849379541}
+--- !u!95 &1968704653
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1968704650}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: f5974119fa5893644b1aedc0b6fee3c6, type: 3}
+  m_Controller: {fileID: 9100000, guid: 1948ea1179abe9542873e4e800d49b8a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1973915277
 GameObject:
   m_ObjectHideFlags: 0
