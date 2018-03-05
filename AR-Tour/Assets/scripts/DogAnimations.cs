@@ -33,10 +33,11 @@ public class DogAnimations : MonoBehaviour
                 if (hit.collider.name == "SportyGirl")
                 {
                     Debug.Log("NAME: " + hit.collider.name);
+                    Debug.Log("GIRL COUNT:" + girlC);
                     
                     if (girlC % 3 == 0)
                     {
-                        charAnim.Play("Fire");
+                        charAnim.Play("sneak");
                         girlC++;
                     }
                     else if (girlC % 3 == 1)
@@ -46,13 +47,13 @@ public class DogAnimations : MonoBehaviour
                     }
                     else if (girlC % 3 == 2)
                     {
-                        charAnim.Play("Walk");
+                        charAnim.Play("walk");
                         
                     }
                 }
                 if (hit.collider.name == "Beagle")
                 {
-                    Debug.Log("HIT DOGGO");
+                    Debug.Log("DOG COUNT: " + dogC); 
                    
                     if (dogC % 3 == 0)
                     {

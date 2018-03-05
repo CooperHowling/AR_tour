@@ -4006,6 +4006,18 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: f5974119fa5893644b1aedc0b6fee3c6, type: 3}
   m_PrefabInternal: {fileID: 1849379541}
+--- !u!65 &1968704651
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1968704650}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.20187552, y: 0.58522916, z: 0.4925891}
+  m_Center: {x: -0.00018705393, y: 0.010037452, z: 0.00036201254}
 --- !u!95 &1968704653
 Animator:
   serializedVersion: 3
@@ -4031,7 +4043,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 1968704650}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.24629454
   m_Height: 0.58522916
   m_Direction: 1

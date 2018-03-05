@@ -626,6 +626,7 @@
     <Compile Include="Assets\Mapbox\Unity\Utilities\VectorExtensions.cs" />
     <Compile Include="Assets\scripts\AddPoi.cs" />
     <Compile Include="Assets\scripts\AnimController.cs" />
+    <Compile Include="Assets\scripts\BiologyDNAInteraction.cs" />
     <Compile Include="Assets\scripts\cameraView.cs" />
     <Compile Include="Assets\scripts\clickPoi.cs" />
     <Compile Include="Assets\scripts\CollisionComputerScienceAR.cs" />
