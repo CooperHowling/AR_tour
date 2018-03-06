@@ -32,3 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/ComputerScienceAr.unity
     guid: 2b74821beba0f064bb4b8cb528ffe504
+  - enabled: 1
+    path: Assets/scenes/360VideoPlayer.unity
+    guid: 7b26647cf5b851942bd7ba11ad367dda

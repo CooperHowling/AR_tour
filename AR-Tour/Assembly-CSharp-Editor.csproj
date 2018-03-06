@@ -106,12 +106,12 @@
      <Compile Include="Assets\Mapbox\Unity\Editor\Tests\DuplicateAndroidLibraries.cs.cs" />
      <Compile Include="Assets\Mapbox\Unity\Editor\VectorLayerVisualizerEditor.cs" />
      <Compile Include="Assets\Mapbox\Unity\Editor\VectorTileFactoryEditor.cs" />
-     <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
-     <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
-     <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
-     <Compile Include="Assets\Vuforia\Editor\Scripts\Unzipper\SharpZipLibUnzipper.cs" />
-     <Compile Include="Assets\Vuforia\Editor\Scripts\VuforiaConfigurationEditor.cs" />
-     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+     <Compile Include="Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs" />
+     <None Include="Assets\Editor\Vuforia\VuforiaMars_ModelTarget\authoringinfo.xml" />
+     <None Include="Assets\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
+     <None Include="Assets\Editor\Vuforia\Emulator\VuforiaEmulator.xml" />
+     <None Include="Assets\Editor\Vuforia\TargetsetData\VuforiaMars_Object_info.xml" />
+     <None Include="Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml" />
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
  <HintPath>C:/Users/coope_000/Desktop/artour/AR-Tour/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
@@ -195,12 +195,6 @@
  </Reference>
  <Reference Include="Mapbox.Json">
  <HintPath>C:/Users/coope_000/Desktop/artour/AR-Tour/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
- </Reference>
- <Reference Include="Vuforia.UnityExtensions.Editor">
- <HintPath>C:/Users/coope_000/Desktop/artour/AR-Tour/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Vuforia.UnityExtensions">
- <HintPath>C:/Users/coope_000/Desktop/artour/AR-Tour/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/coope_000/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

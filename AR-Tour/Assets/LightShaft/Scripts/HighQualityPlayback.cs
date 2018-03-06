@@ -5,8 +5,9 @@ using UnityEngine.Video;
 using YoutubeLight;
 
 public class HighQualityPlayback : MonoBehaviour {
-	public string videoId = "bc0sJvtKrRM";
-	public VideoQuality videoQuality;
+	public string videoId ;
+
+    public VideoQuality videoQuality;
 	private string videoUrl;
 	private string audioVideoUrl;
 	private bool videoAreReadyToPlay = false;
@@ -21,7 +22,11 @@ public class HighQualityPlayback : MonoBehaviour {
 
     RequestResolver resolver;
 
-    public void Start(){
+    public void OnEnable(){ //activates when the object is enabled
+
+        videoId = ControlVideos.YoutubeVideoCode; // the video played is chosen by the button string
+
+
         resolver = gameObject.AddComponent<RequestResolver>();
         if (Application.isMobilePlatform)
         {
