@@ -7,7 +7,11 @@ public class ControlVideos: MonoBehaviour {
 
     public GameObject CameraForVideo;
     public GameObject MainCamera;
-    public GameObject VideoPlayer;
+    public GameObject VideoPlayerGroup;
+
+    public GameObject DeptMenu;
+
+    public GameObject CloseButton;
 
     public static string YoutubeVideoCode;
     public string code = YoutubeVideoCode;
@@ -16,29 +20,34 @@ public class ControlVideos: MonoBehaviour {
     {
         MainCamera.SetActive(true);
         CameraForVideo.SetActive(false);
-        VideoPlayer.SetActive(false);
+        VideoPlayerGroup.SetActive(false);
+        CloseButton.SetActive(false);
     }
 	
-    void Load2DVideo(string videocode)
+    public void Load2DVideo(string videocode)
     {
 
         YoutubeVideoCode = videocode;
         MainCamera.SetActive(false);
-        CameraForVideo.SetActive(true);
-        VideoPlayer.SetActive(true);
+        CloseButton.SetActive(true);
+       CameraForVideo.SetActive(true);
+        VideoPlayerGroup.SetActive(true);
+        DeptMenu.SetActive(false);
 
     }
 
-    void Load360Video(string videocode)
+    public void Load360Video(string videocode)
     {
         SceneManager.LoadScene("360VideoVlayer");
         YoutubeVideoCode = videocode;
     }
 
-    void Close2DVideo()
+    public void Close2DVideo()
     {
         MainCamera.SetActive(true);
+        DeptMenu.SetActive(true);
         CameraForVideo.SetActive(false);
-        VideoPlayer.SetActive(false);
+        VideoPlayerGroup.SetActive(false);
+        CloseButton.SetActive(false);
     }
 }
