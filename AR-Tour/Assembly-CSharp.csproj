@@ -367,9 +367,11 @@
      <Compile Include="Assets\scripts\AnimController.cs" />
      <Compile Include="Assets\scripts\cameraView.cs" />
      <Compile Include="Assets\scripts\clickPoi.cs" />
+     <Compile Include="Assets\scripts\ControlVideos.cs" />
      <Compile Include="Assets\scripts\DestroyOnTime.cs" />
      <Compile Include="Assets\scripts\ForceHorizontal.cs" />
      <Compile Include="Assets\scripts\ForcePortrait.cs" />
+     <Compile Include="Assets\scripts\GyroControlCamera.cs" />
      <Compile Include="Assets\scripts\LoadingScreenControl.cs" />
      <Compile Include="Assets\scripts\LocationServices.cs" />
      <Compile Include="Assets\scripts\marklessAr.cs" />
@@ -386,62 +388,33 @@
      <Compile Include="Assets\scripts\switchScene.cs" />
      <Compile Include="Assets\scripts\TapOBJ.cs" />
      <Compile Include="Assets\scripts\TileManager.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\Internal\AndroidUnityPlayer.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\Internal\WSAUnityPlayer.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\MaskOutBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\MultiTargetBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\ObjectTargetBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\PropBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\ReconstructionBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\ReconstructionFromTargetBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\SurfaceBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\TextRecoBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\TurnOffBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\TurnOffWordBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\Utilities\VRIntegrationHelper.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\VirtualButtonBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\VuforiaBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\VuforiaConfiguration.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\VuforiaRuntimeInitialization.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\VuMarkBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
+     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Helpers\AlphaMask.shader" />
      <None Include="Assets\Mapbox\Fonts\OpenSansLic.txt" />
-     <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\LightShaft\YoutubeAPI\link.xml" />
      <None Include="Assets\Mapbox\README.txt" />
+     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
      <None Include="Assets\readme_SDK.txt" />
-     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\LightShaft\Shaders\ViewInside.shader" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Mapbox\Core\Plugins\link.xml" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
      <None Include="Assets\LightShaft\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Resources\Mapbox\MapboxConfiguration.txt" />
-     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\LightShaft\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\LightShaft\YoutubeAPI\Readme.txt" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
      <None Include="Assets\LightShaft\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\LightShaft\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\LightShaft\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
@@ -525,12 +498,6 @@
  </Reference>
  <Reference Include="Mapbox.Json">
  <HintPath>C:/Users/coope_000/Desktop/artour/AR-Tour/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
- </Reference>
- <Reference Include="Vuforia.UnityExtensions.Editor">
- <HintPath>C:/Users/coope_000/Desktop/artour/AR-Tour/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Vuforia.UnityExtensions">
- <HintPath>C:/Users/coope_000/Desktop/artour/AR-Tour/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/coope_000/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
