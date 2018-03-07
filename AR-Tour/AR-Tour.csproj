@@ -613,9 +613,11 @@
     <Compile Include="Assets\scripts\AnimController.cs" />
     <Compile Include="Assets\scripts\cameraView.cs" />
     <Compile Include="Assets\scripts\clickPoi.cs" />
+    <Compile Include="Assets\scripts\ControlVideos.cs" />
     <Compile Include="Assets\scripts\DestroyOnTime.cs" />
     <Compile Include="Assets\scripts\forceHorizontal.cs" />
     <Compile Include="Assets\scripts\ForcePortrait.cs" />
+    <Compile Include="Assets\scripts\GyroControlCamera.cs" />
     <Compile Include="Assets\scripts\LoadingScreenControl.cs" />
     <Compile Include="Assets\scripts\LocationServices.cs" />
     <Compile Include="Assets\scripts\marklessAr.cs" />
