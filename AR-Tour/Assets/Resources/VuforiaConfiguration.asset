@@ -55,8 +55,8 @@ MonoBehaviour:
     autoInitBuilder: 0
     sceneUnitsToMillimeter: 0
   deviceTracker:
-    autoInitTracker: 1
-    autoStartTracker: 1
+    autoInitTracker: 0
+    autoStartTracker: 0
     posePrediction: 0
     modelCorrectionMode: 0
     modelTransformEnabled: 0

@@ -7,7 +7,7 @@ public class clickPoi : MonoBehaviour
 {
 
     public float force = 5;
-    
+
     public GameObject uncMenu;
     public GameObject historyMenu;
     public GameObject eescMenu;
@@ -15,19 +15,19 @@ public class clickPoi : MonoBehaviour
     public GameObject econMenu;
     public GameObject philMenu;
 
-    
-   // Dictionary<string, GameObject> PoiDict = new Dictionary<string, GameObject>();
-    
+
+    // Dictionary<string, GameObject> PoiDict = new Dictionary<string, GameObject>();
+
 
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
 
-            
+
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        
+
 
             if (Physics.Raycast(ray, out hit, 100.0f))
             {
@@ -44,8 +44,8 @@ public class clickPoi : MonoBehaviour
                         //PrintName(hit.transform.gameObject);
                         LaunchIntoAir(rb);
                         print(name);
-                        
-                        
+
+
                         //  AR POIs
                         /* 
                         
@@ -55,11 +55,9 @@ public class clickPoi : MonoBehaviour
                             SceneManager.LoadScene(name, LoadSceneMode.Single);
                         }catch(System.Exception )
                         {
-
                         }
-
                         */
-                        
+
                         //Non AR POIs
                         //add all points to a dictionary for accessing
                         /*
@@ -69,11 +67,10 @@ public class clickPoi : MonoBehaviour
                         PoiDict.Add("Ecology", ecologyMenu);
                         PoiDict.Add("Econ", econMenu);
                         PoiDict.Add("Phil", philMenu);
-
                         //set clicked menu active
                         PoiDict[name].SetActive(true);
                         */
-                        
+
 
                         // Static Scences
                         if (name == "unc")
@@ -86,7 +83,7 @@ public class clickPoi : MonoBehaviour
                             philMenu.SetActive(false);
                             econMenu.SetActive(false);
                         }
-                        
+
                         if (name == "history")
                         {
                             historyMenu.SetActive(true);
@@ -106,7 +103,7 @@ public class clickPoi : MonoBehaviour
                             uncMenu.SetActive(false);
                             ecologyMenu.SetActive(false);
                             philMenu.SetActive(false);
-                            econMenu.SetActive(false); 
+                            econMenu.SetActive(false);
 
                         }
                         if (name == "ecology")
@@ -117,7 +114,7 @@ public class clickPoi : MonoBehaviour
                             historyMenu.SetActive(false);
                             uncMenu.SetActive(false);
                             philMenu.SetActive(false);
-                            econMenu.SetActive(false); 
+                            econMenu.SetActive(false);
 
                         }
                         if (name == "phil")
@@ -139,17 +136,17 @@ public class clickPoi : MonoBehaviour
                             ecologyMenu.SetActive(false);
                             eescMenu.SetActive(false);
                             historyMenu.SetActive(false);
-                            uncMenu.SetActive(false);                            
+                            uncMenu.SetActive(false);
 
                         }
                         // Ar Scenes
                         if (name == "simpleAr")
                         {
                             try
-                            { 
+                            {
                                 SceneManager.LoadScene(name, LoadSceneMode.Single);
                             }
-                                catch (System.Exception)
+                            catch (System.Exception)
                             {
 
                             }

@@ -36,9 +36,18 @@ public class ControlVideos: MonoBehaviour {
 
     }
 
+
+    public void Load2DVideoSCENE(string videocode)
+    {
+
+        SceneManager.LoadScene("Play Video");
+        YoutubeVideoCode = videocode;
+
+    }
+
     public void Load360Video(string videocode)
     {
-        SceneManager.LoadScene("360VideoVlayer");
+        SceneManager.LoadScene("360VideoPlayerBark");
         YoutubeVideoCode = videocode;
     }
 

@@ -14,6 +14,7 @@ public class switchBarkImage : MonoBehaviour {
     public Sprite doggo6;
     public Sprite doggo7;
     public Sprite doggo8;
+    public Sprite doggo9;
     public GameObject Main;
     string scene = "Information"; 
     
@@ -53,6 +54,10 @@ public class switchBarkImage : MonoBehaviour {
         if (image == "H")
         {
             Main.GetComponent<Image>().sprite = doggo8;
+        }
+        if (image == "I")
+        {
+            Main.GetComponent<Image>().sprite = doggo9;
         }
      }	
 

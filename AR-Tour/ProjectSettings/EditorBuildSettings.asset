@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/simpleAr.unity
     guid: 5073fcd3046e3c14394b51f2883d78a1
-  - enabled: 1
+  - enabled: 0
     path: Assets/scenes/FullScreenPlayer.unity
     guid: db467aeaa61b268438638d2f8ea01814
   - enabled: 1
@@ -32,3 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/ComputerScienceAr.unity
     guid: 2b74821beba0f064bb4b8cb528ffe504
+  - enabled: 1
+    path: Assets/scenes/360VideoPlayerBark.unity
+    guid: e2cecd107b74b1f4cad8fc14d0d2796c
+  - enabled: 1
+    path: Assets/scenes/Play Video.unity
+    guid: e4c9c07137823bc42bc6a85fd7ee3643
