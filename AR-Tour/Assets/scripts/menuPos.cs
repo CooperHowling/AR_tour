@@ -9,6 +9,10 @@ public class menuPos : MonoBehaviour {
     // Player
     public GameObject player;
 
+	// Cammera's
+	public GameObject playerCam;
+	public GameObject menuCam;
+
     // Static Poi's
     public GameObject ecolPoi;
     public GameObject uncPoi;
@@ -98,6 +102,11 @@ public class menuPos : MonoBehaviour {
         // ECOLOGY
         if (Vector3.Distance(position, ecolPos) < 4 && ecolOpen == false )
         {
+			// Switch To Menu Camera
+			player.SetActive (false);
+			menuCam.SetActive (true);
+
+			// Open Menu For Poi
             ecolMenu.SetActive(true);
             ecolOpen = true;
         }
@@ -110,6 +119,11 @@ public class menuPos : MonoBehaviour {
         // HISTORY
         if (Vector3.Distance(position, histPos) < 4 && histOpen == false)
         {
+			// Switch To Menu Camera
+			player.SetActive (false);
+			menuCam.SetActive (true);
+
+			// Open Menu For Poi
             histMenu.SetActive(true);
             histOpen = true;
         }
@@ -122,6 +136,11 @@ public class menuPos : MonoBehaviour {
         // UNC
         if (Vector3.Distance(position, uncPos) < 4 && uncOpen == false)
         {
+			// Switch To Menu Camera
+			player.SetActive (false);
+			menuCam.SetActive (true);
+
+			// Open Menu For Poi
             uncMenu.SetActive(true);
             uncOpen = true;
 
@@ -135,6 +154,11 @@ public class menuPos : MonoBehaviour {
         // PHIL
         if (Vector3.Distance(position, philPos) < 4 && philOpen == false)
         {
+			// Switch To Menu Camera
+			player.SetActive (false);
+			menuCam.SetActive (true);
+
+			// Open Menu For Poi
             philMenu.SetActive(true);
             philOpen = true;
         }
@@ -147,6 +171,11 @@ public class menuPos : MonoBehaviour {
         // ECON
         if (Vector3.Distance(position, econPos) < 4 && econOpen == false)
         {
+			// Switch To Menu Camera
+			player.SetActive (false);
+			menuCam.SetActive (true);
+
+			// Open Menu For Poi
             econMenu.SetActive(true);
             econOpen = true;
         }
@@ -160,6 +189,11 @@ public class menuPos : MonoBehaviour {
         // EESC
         if (Vector3.Distance(position, eescPos) < 4 && eescOpen == false)
         {
+			// Switch To Menu Camera
+			player.SetActive (false);
+			menuCam.SetActive (true);
+
+			// Open Menu For Poi
             eescMenu.SetActive(true);
             eescOpen = true;
         }

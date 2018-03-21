@@ -14,6 +14,14 @@ public class clickPoi : MonoBehaviour
     public GameObject ecologyMenu;
     public GameObject econMenu;
     public GameObject philMenu;
+	public GameObject player;
+	public GameObject newCam;
+
+
+	// Labels
+	public GameObject histLabel;
+
+
 
 
     // Dictionary<string, GameObject> PoiDict = new Dictionary<string, GameObject>();
@@ -41,42 +49,21 @@ public class clickPoi : MonoBehaviour
 
                     {
                         string name = hit.transform.gameObject.name;
-                        //PrintName(hit.transform.gameObject);
-                        LaunchIntoAir(rb);
+                        // LaunchIntoAir(rb);
                         print(name);
-
-
-                        //  AR POIs
-                        /* 
-                        
-                        try
-                        {
-                            
-                            SceneManager.LoadScene(name, LoadSceneMode.Single);
-                        }catch(System.Exception )
-                        {
-                        }
-                        */
-
-                        //Non AR POIs
-                        //add all points to a dictionary for accessing
-                        /*
-                        PoiDict.Add("UNC", uncMenu);
-                        PoiDict.Add("History", historyMenu);
-                        PoiDict.Add("EESC", eescMenu);
-                        PoiDict.Add("Ecology", ecologyMenu);
-                        PoiDict.Add("Econ", econMenu);
-                        PoiDict.Add("Phil", philMenu);
-                        //set clicked menu active
-                        PoiDict[name].SetActive(true);
-                        */
-
 
                         // Static Scences
                         if (name == "unc")
                         {
+
+							// Switch To Menu Camera
+							player.SetActive (false);
+							newCam.SetActive (true);
+
+							// Open Menu For Poi
                             uncMenu.SetActive(true);
 
+							// Close All Other Poi's
                             historyMenu.SetActive(false);
                             eescMenu.SetActive(false);
                             ecologyMenu.SetActive(false);
@@ -86,8 +73,18 @@ public class clickPoi : MonoBehaviour
 
                         if (name == "history")
                         {
-                            historyMenu.SetActive(true);
+							
+							histLabel.SetActive (true);
 
+						//	if (histLabel.activeSelf) {
+
+						//		histLabel.SetActive (false);
+						//	}
+
+							// Open Menu For Poi
+                            // historyMenu.SetActive(true);
+
+							// Close All Other Poi's
                             uncMenu.SetActive(false);
                             eescMenu.SetActive(false);
                             ecologyMenu.SetActive(false);
@@ -97,8 +94,14 @@ public class clickPoi : MonoBehaviour
                         }
                         if (name == "eesc")
                         {
+							// Switch To Menu Camera
+							player.SetActive (false);
+							newCam.SetActive (true);
+
+							// Open Menu For Poi
                             eescMenu.SetActive(true);
 
+							// Close All Other Poi's
                             historyMenu.SetActive(false);
                             uncMenu.SetActive(false);
                             ecologyMenu.SetActive(false);
@@ -108,8 +111,14 @@ public class clickPoi : MonoBehaviour
                         }
                         if (name == "ecology")
                         {
+							// Switch To Menu Camera
+							player.SetActive (false);
+							newCam.SetActive (true);
+
+							// Open Menu For Poi
                             ecologyMenu.SetActive(true);
 
+							// Close All Other Poi's
                             eescMenu.SetActive(false);
                             historyMenu.SetActive(false);
                             uncMenu.SetActive(false);
@@ -119,8 +128,14 @@ public class clickPoi : MonoBehaviour
                         }
                         if (name == "phil")
                         {
+							// Switch To Menu Camera
+							player.SetActive (false);
+							newCam.SetActive (true);
+
+							// Open Menu For Poi
                             philMenu.SetActive(true);
 
+							// Close All Other Poi's
                             ecologyMenu.SetActive(false);
                             eescMenu.SetActive(false);
                             historyMenu.SetActive(false);
@@ -130,8 +145,14 @@ public class clickPoi : MonoBehaviour
                         }
                         if (name == "econ")
                         {
+							// Switch To Menu Camera
+							player.SetActive (false);
+							newCam.SetActive (true);
+
+							// Open Menu For Poi
                             econMenu.SetActive(true);
 
+							// Close All Other Poi's
                             philMenu.SetActive(false);
                             ecologyMenu.SetActive(false);
                             eescMenu.SetActive(false);

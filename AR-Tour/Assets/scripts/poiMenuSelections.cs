@@ -8,6 +8,8 @@ public class poiMenuSelections : MonoBehaviour {
 
 
     public GameObject Menu;
+	public GameObject player;
+	public GameObject newCam;
     
 
 
@@ -41,10 +43,16 @@ public class poiMenuSelections : MonoBehaviour {
 
     public void closeMenu()
     {
-        infoPanel.SetActive(false);
+        infoPanel.SetActive(true);
         imagePanel.SetActive(false);
         videoPanel.SetActive(false);
         Menu.SetActive(false);
+
+		// Switch Back To Player Camera
+		player.SetActive (true);
+		newCam.SetActive (false);
+
+
     }
 
     
