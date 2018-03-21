@@ -1,15 +1,7 @@
 Android
 SceneListBegin?
-Assets/scenes/Splash.unity
-Assets/scenes/Tour Map.unity
-Assets/scenes/Information.unity
 Assets/scenes/simpleAr.unity
-Assets/scenes/MicroBioAr.unity
-Assets/scenes/ChemAr.unity
-Assets/scenes/PsychAr.unity
-Assets/scenes/ComputerScienceAr.unity
 Assets/scenes/360VideoPlayerBark.unity
-Assets/scenes/Play Video.unity
 SceneListEnd?
 971e7bf01c7cea0a40a1ffeba4f56f6d Assembly-CSharp.dll:.IndividualVideoDataDemo
 109bc24ceb27d134c3dca242e524fca6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Components.VertexDebugger
