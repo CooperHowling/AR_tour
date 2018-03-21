@@ -71,27 +71,25 @@ public class clickPoi : MonoBehaviour
                             econMenu.SetActive(false);
                         }
 
-                        if (name == "history")
-                        {
-							
+						if (name == "history" && !histLabel.activeSelf) {
+
+							// Show Poi Label
 							histLabel.SetActive (true);
 
-						//	if (histLabel.activeSelf) {
-
-						//		histLabel.SetActive (false);
-						//	}
-
-							// Open Menu For Poi
-                            // historyMenu.SetActive(true);
-
 							// Close All Other Poi's
-                            uncMenu.SetActive(false);
-                            eescMenu.SetActive(false);
-                            ecologyMenu.SetActive(false);
-                            philMenu.SetActive(false);
-                            econMenu.SetActive(false);
+							uncMenu.SetActive (false);
+							eescMenu.SetActive (false);
+							ecologyMenu.SetActive (false);
+							philMenu.SetActive (false);
+							econMenu.SetActive (false);
 
-                        }
+							} else if (name == "history" && histLabel.activeSelf) {
+
+								// Close Poi Label
+								histLabel.SetActive (false);
+
+						}
+
                         if (name == "eesc")
                         {
 							// Switch To Menu Camera

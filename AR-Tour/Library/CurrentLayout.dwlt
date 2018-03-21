@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 342}
   m_MaxSize: {x: 16012, y: 8042}
   vertical: 1
-  controlID: 10
+  controlID: 130
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 221}
   m_MaxSize: {x: 16012, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 131
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,8 +154,8 @@ MonoBehaviour:
     y: 0
     width: 322
     height: 696
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -207,8 +207,8 @@ MonoBehaviour:
     y: 0
     width: 496
     height: 696
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -312,7 +312,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -371,9 +371,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c06c0000
-    m_LastClickedID: 27840
-    m_ExpandedIDs: 8e79f8ff5a47faffeaddfcff226affff000000004c670000c06c0000e06c0000226e0000826f0000f86f0000307000009872000022730000c0730000fe730000ca740000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: fc31feff0c3efeff9efbffff00000000f63d000076430000d8440000e6460000d8490000764a0000b44a00006c210100ce220100dc2401006c280100aa280100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -486,11 +486,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.43924886, y: 0.04578254, z: -0.022421123, w: -0.89691794}
     speed: 2
-    m_Value: {x: -0.43924886, y: 0.04578254, z: -0.022421123, w: -0.89691794}
+    m_Value: {x: -0.43924883, y: 0.04578254, z: -0.022421123, w: -0.89691794}
   m_Size:
-    m_Target: 9.731925
+    m_Target: 2.9067483
     speed: 2
-    m_Value: 9.731925
+    m_Value: 2.9067483
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -679,19 +679,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/scripts
+    - Assets/scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/scripts
+  - Assets/scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Users\Matt\Documents\School\499\AR_tour\AR-Tour
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 446}
-    m_SelectedIDs: d45d0000
-    m_LastClickedID: 24020
-    m_ExpandedIDs: 00000000c85c0000ce5d0000985e00003e5f0000aa5f0000306000009a600000c8600000246100002a62000038620000a66200001a6300002e630000ee630000c8640000346600006477000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 306}
+    m_SelectedIDs: ac2e0000
+    m_LastClickedID: 11948
+    m_ExpandedIDs: 00000000442c00002e2e0000382f000040300000d0300000983100002e320000ee320000c8340000e434000080350000523600007236000058370000c6380000fa3a00003a4e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -719,7 +719,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c85c00004e5d0000ce5d0000985e00002a5f00003e5f00005e5f0000aa5f0000306000009a600000246100002a620000386200001a6300002e630000ee630000c86400003466000064770000
+    m_ExpandedIDs: 00000000442c00002e2e0000382f000040300000d0300000983100002e32000066320000ee320000c8340000e434000080350000523600007236000058370000c6380000fa3a00003a4e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -744,24 +744,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c06c0000
-    m_LastClickedInstanceID: 27840
+    m_SelectedInstanceIDs: 46380000
+    m_LastClickedInstanceID: 14406
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 062e0000982d0000f0470000622a0000ca5600000000000066480000f24800000c4b0000c0460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Poi Materials
+      m_OriginalName: Poi Materials
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 20106
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:

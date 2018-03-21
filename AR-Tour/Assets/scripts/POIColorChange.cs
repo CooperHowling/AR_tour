@@ -23,15 +23,17 @@ public class POIColorChange : MonoBehaviour
         if (materials.Length == 0)//If there are no materials nothing happens.
             return;
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            index ++;//When mouse is pressed down we increment up to the next index location
-            if(index > 1) { index = 1; }
+		if (Input.GetMouseButtonDown (0)) {
+			index++;//When mouse is pressed down we increment up to the next index location
+			if (index > 1) {
+				index = 1;
+			}
 
-            print(index);//used for debugging
+			print (index);//used for debugging
 
-            Rend.sharedMaterial = materials[index]; //This sets the material color values inside the index
-        }
+			Rend.sharedMaterial = materials [index]; //This sets the material color values inside the index
+		} 
+			
     }
 }
 
