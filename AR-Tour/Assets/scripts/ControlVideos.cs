@@ -6,8 +6,11 @@ using UnityEngine.SceneManagement;
 public class ControlVideos: MonoBehaviour {
 
     public GameObject CameraForVideo;
+    public GameObject CameraFor360Video;
     public GameObject MainCamera;
+
     public GameObject VideoPlayerGroup;
+    public GameObject Video360PlayerGroup;
 
     public GameObject DeptMenu;
 
@@ -30,7 +33,7 @@ public class ControlVideos: MonoBehaviour {
         YoutubeVideoCode = videocode;
         MainCamera.SetActive(false);
         CloseButton.SetActive(true);
-       CameraForVideo.SetActive(true);
+        CameraForVideo.SetActive(true);
         VideoPlayerGroup.SetActive(true);
         DeptMenu.SetActive(false);
 
@@ -45,10 +48,33 @@ public class ControlVideos: MonoBehaviour {
 
     }
 
-    public void Load360Video(string videocode)
+    public void Load360VideoScene(string videocode)
     {
-        SceneManager.LoadScene("360VideoPlayerBark");
+        SceneManager.LoadScene("360VideoPlayer");
         YoutubeVideoCode = videocode;
+    }
+
+    public void Load360VideoNONAR(string videocode)
+    {
+        YoutubeVideoCode = videocode;
+
+        YoutubeVideoCode = videocode;
+        MainCamera.SetActive(false);
+        CameraFor360Video.SetActive(true);
+        Video360PlayerGroup.SetActive(true);
+        DeptMenu.SetActive(false);
+
+
+    }
+
+    public void Close360Video()
+    {
+        Screen.orientation = ScreenOrientation.Portrait;
+        MainCamera.SetActive(true);
+        DeptMenu.SetActive(true);
+        CameraFor360Video.SetActive(false);
+        Video360PlayerGroup.SetActive(false);
+        CloseButton.SetActive(false);
     }
 
     public void Close2DVideo()

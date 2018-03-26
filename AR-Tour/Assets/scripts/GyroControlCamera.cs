@@ -6,9 +6,11 @@ using UnityEngine.SceneManagement;
 public class GyroControlCamera : MonoBehaviour {
 
     public GameObject Camera;
+    public string PrevSceneName;
 
     void Start()
     {
+        PrevSceneName = LastARSceneManager.LastARScene;
         Input.gyro.enabled = true;
         Screen.orientation = ScreenOrientation.LandscapeLeft;
       
@@ -22,7 +24,7 @@ public class GyroControlCamera : MonoBehaviour {
     public void close360()
     {
         Screen.orientation = ScreenOrientation.Portrait;
-        SceneManager.LoadScene("simpleAr");
+        SceneManager.LoadScene(PrevSceneName);
         
     }
 
