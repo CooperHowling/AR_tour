@@ -250,6 +250,12 @@
     <Reference Include="UnityEditor.VR">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions.Editor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
@@ -270,12 +276,6 @@
     </Reference>
     <Reference Include="Mapbox.Json">
       <HintPath>Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Vuforia.UnityExtensions.Editor">
-      <HintPath>Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/coope_000/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
@@ -371,11 +371,6 @@
     <Compile Include="Assets\Mapbox\Unity\Editor\Tests\DuplicateAndroidLibraries.cs.cs" />
     <Compile Include="Assets\Mapbox\Unity\Editor\VectorLayerVisualizerEditor.cs" />
     <Compile Include="Assets\Mapbox\Unity\Editor\VectorTileFactoryEditor.cs" />
-    <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
-    <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
-    <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
-    <Compile Include="Assets\Vuforia\Editor\Scripts\Unzipper\SharpZipLibUnzipper.cs" />
-    <Compile Include="Assets\Vuforia\Editor\Scripts\VuforiaConfigurationEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DogPack\Examples\Description.txt" />
@@ -394,17 +389,6 @@
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Plugins\iOS\Vuforia.UnityExtensions.iOS.XML" />
     <None Include="Assets\Resources\Mapbox\MapboxConfiguration.txt" />
-    <None Include="Assets\Vuforia\Editor\Scripts\Vuforia.UnityExtensions.Editor.XML" />
-    <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
-    <None Include="Assets\Vuforia\Scripts\Internal\Vuforia.UnityExtensions.XML" />
-    <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
-    <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
-    <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
-    <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
-    <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
-    <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
-    <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
-    <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
     <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
     <None Include="Assets\license_3rdpartynotice.txt" />
     <None Include="Assets\link.xml" />

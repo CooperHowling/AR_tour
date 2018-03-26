@@ -159,6 +159,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.ash.Cam
+    iOS: com.DefaultCompany.AR-Tour
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -300,9 +301,14 @@ PlayerSettings:
     m_Enabled: 0
     m_Devices:
     - None
+  - m_BuildTarget: iOS
+    m_Enabled: 0
+    m_Devices: []
   m_BuildTargetEnableVuforiaSettings:
   - m_BuildTarget: Android
-    m_Enabled: 0
+    m_Enabled: 1
+  - m_BuildTarget: iOS
+    m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   m_TemplateCustomTags: {}
