@@ -395,7 +395,6 @@
     <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\Src\YoutubeStatistics.cs" />
     <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\YoutubeDemoUsage.cs" />
     <Compile Include="Assets\LightShaft\YoutubeAPI\Scripts\YoutubeEasyMovieTexture.cs" />
-    <Compile Include="Assets\LightShaft\YoutubeAPI\UnityPackages\JsonNetSample\JsonNetSample.cs" />
     <Compile Include="Assets\LightShaft\YoutubeSrc\Exceptions.cs" />
     <Compile Include="Assets\LightShaft\YoutubeSrc\HTTPHelperYoutube.cs" />
     <Compile Include="Assets\LightShaft\YoutubeSrc\MagicHands.cs" />
