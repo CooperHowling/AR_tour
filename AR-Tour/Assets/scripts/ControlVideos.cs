@@ -56,7 +56,7 @@ public class ControlVideos: MonoBehaviour {
 
     public void Load360VideoNONAR(string videocode)
     {
-        YoutubeVideoCode = videocode;
+      
 
         YoutubeVideoCode = videocode;
         MainCamera.SetActive(false);
