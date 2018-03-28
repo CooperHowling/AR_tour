@@ -12,7 +12,6 @@
 		public float _zoomSpeed = 50f;
 
 		[SerializeField]
-		[HideInInspector]
 		public Camera _referenceCamera;
 
 		[SerializeField]

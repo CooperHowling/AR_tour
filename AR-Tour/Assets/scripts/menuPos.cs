@@ -105,6 +105,7 @@ public class menuPos : MonoBehaviour {
 			// Switch To Menu Camera
 			player.SetActive (false);
 			menuCam.SetActive (true);
+			Handheld.Vibrate ();
 
 			// Open Menu For Poi
             ecolMenu.SetActive(true);
@@ -122,6 +123,7 @@ public class menuPos : MonoBehaviour {
 			// Switch To Menu Camera
 			player.SetActive (false);
 			menuCam.SetActive (true);
+			Handheld.Vibrate ();
 
 			// Open Menu For Poi
             histMenu.SetActive(true);
@@ -139,6 +141,7 @@ public class menuPos : MonoBehaviour {
 			// Switch To Menu Camera
 			player.SetActive (false);
 			menuCam.SetActive (true);
+			Handheld.Vibrate ();
 
 			// Open Menu For Poi
             uncMenu.SetActive(true);
@@ -157,6 +160,7 @@ public class menuPos : MonoBehaviour {
 			// Switch To Menu Camera
 			player.SetActive (false);
 			menuCam.SetActive (true);
+			Handheld.Vibrate ();
 
 			// Open Menu For Poi
             philMenu.SetActive(true);
@@ -174,6 +178,7 @@ public class menuPos : MonoBehaviour {
 			// Switch To Menu Camera
 			player.SetActive (false);
 			menuCam.SetActive (true);
+			Handheld.Vibrate ();
 
 			// Open Menu For Poi
             econMenu.SetActive(true);
@@ -192,6 +197,7 @@ public class menuPos : MonoBehaviour {
 			// Switch To Menu Camera
 			player.SetActive (false);
 			menuCam.SetActive (true);
+			Handheld.Vibrate ();
 
 			// Open Menu For Poi
             eescMenu.SetActive(true);
@@ -210,6 +216,8 @@ public class menuPos : MonoBehaviour {
         {
            SceneManager.LoadScene(compsci);
            compSciOpen = true;
+			Handheld.Vibrate ();
+
         }
 
         if (Vector3.Distance(position, compSciPos) > 6 && compSciOpen == true)
@@ -222,6 +230,7 @@ public class menuPos : MonoBehaviour {
         {
             SceneManager.LoadScene(psychAr);
             psychOpen = true;
+			Handheld.Vibrate ();
         }
 
         if (Vector3.Distance(position, psychPos) > 6 && psychOpen == true)
@@ -234,6 +243,7 @@ public class menuPos : MonoBehaviour {
         {
             SceneManager.LoadScene(microBioAr);
             microBioOpen = true;
+			Handheld.Vibrate ();
         }
 
         if (Vector3.Distance(position, microBioPos) > 6 && microBioOpen == true)
@@ -246,6 +256,7 @@ public class menuPos : MonoBehaviour {
         {
             SceneManager.LoadScene(compsci);
             barkOpen = true;
+			Handheld.Vibrate ();
         }
 
         if (Vector3.Distance(position, barkPos) > 6 && barkOpen == true)
