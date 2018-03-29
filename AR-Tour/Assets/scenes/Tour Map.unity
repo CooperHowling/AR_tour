@@ -2006,7 +2006,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &77282524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2355,7 +2355,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.0010070794, y: -21.38514}
-  m_SizeDelta: {x: 450.55, y: 676.93}
+  m_SizeDelta: {x: 450.55, y: 690}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &93303288
 MonoBehaviour:
@@ -3314,7 +3314,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -65, y: 2.9999695}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &140410338
 MonoBehaviour:
@@ -3387,7 +3387,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ca13a8e25349bf84b8aea5f2596eba46, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b25b87105def9fe4caae58b08e88d66e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8502,7 +8502,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 65, y: 2.9999695}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &354729437
 MonoBehaviour:
@@ -8575,7 +8575,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 65ddc7d5f4af3fb4292d1dd2f7b9422d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fa04869ee85ae34428ce6731e74e19e3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9508,7 +9508,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Learning about History on the Battlefields
+  m_Text: History on the Battlefields
 --- !u!222 &414761222
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10984,8 +10984,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -445}
-  m_SizeDelta: {x: 720, y: 150}
+  m_AnchoredPosition: {x: 0, y: -460}
+  m_SizeDelta: {x: 720, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476629622
 MonoBehaviour:
@@ -16454,7 +16454,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -200, y: 2.9999695}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &685370604
 MonoBehaviour:
@@ -16527,7 +16527,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 998a549023f87c244a827fc0c21bb165, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5333b7bf445dd56428e48d26019a466b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18579,7 +18579,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 65ddc7d5f4af3fb4292d1dd2f7b9422d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e9573797c695ff49800aaf749fe0079, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21793,7 +21793,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &982648229
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30472,7 +30472,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Lisa Grekul - Literature & Canadian History
+  m_Text: Literature & Canadian History
 --- !u!222 &1566231400
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -35334,7 +35334,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1828202205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39027,7 +39027,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2017277505
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39486,7 +39486,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 200, y: 2.9999695}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039654760
 MonoBehaviour:
@@ -39559,7 +39559,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: f058cac4f14135e4398cd723e7b6de32, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76c069dca894350479e9a7017e72064a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
