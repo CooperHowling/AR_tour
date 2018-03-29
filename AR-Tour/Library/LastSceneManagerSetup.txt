@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/Tour Map.unity
+- path: Assets/scenes/Splash.unity
   isLoaded: 1
   isActive: 1
