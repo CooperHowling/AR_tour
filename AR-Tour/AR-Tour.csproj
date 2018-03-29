@@ -643,6 +643,7 @@
     <Compile Include="Assets\scripts\MenuButtonScript.cs" />
     <Compile Include="Assets\scripts\menuPos.cs" />
     <Compile Include="Assets\scripts\menuSlide.cs" />
+    <Compile Include="Assets\scripts\OrganicChemTheoBromine.cs" />
     <Compile Include="Assets\scripts\PlayerTileProvider.cs" />
     <Compile Include="Assets\scripts\POIColorChange.cs" />
     <Compile Include="Assets\scripts\poiMenuSelections.cs" />
