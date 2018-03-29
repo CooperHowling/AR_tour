@@ -11864,7 +11864,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 122
@@ -16850,7 +16850,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &703779227
 Transform:
   m_ObjectHideFlags: 0
@@ -16911,8 +16911,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Map: {fileID: 1572976570}
-  Lat: 49.9396
-  Lon: -119.3971
+  Lat: 49.9397
+  Lon: -119.3970
   poiObject: {fileID: 1983220521}
 --- !u!1 &710830928
 GameObject:
@@ -17031,8 +17031,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Map: {fileID: 1572976570}
-  Lat: 49.93971
-  Lon: -119.3967
+  Lat: 49.93893
+  Lon: -119.3948
   poiObject: {fileID: 624839239}
 --- !u!23 &711881204
 MeshRenderer:
@@ -17145,8 +17145,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Map: {fileID: 1572976570}
-  Lat: 49.9401
-  Lon: -119.3963
+  Lat: 49.94025
+  Lon: -119.3962
   poiObject: {fileID: 2062342648}
 --- !u!1 &731312448
 GameObject:
@@ -17436,8 +17436,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Map: {fileID: 1572976570}
-  Lat: 49.93922
-  Lon: -119.39688
+  Lat: 49.93933
+  Lon: -119.3968
   poiObject: {fileID: 1340993950}
 --- !u!1 &768583433
 GameObject:
@@ -18383,7 +18383,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 122
@@ -21050,8 +21050,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Map: {fileID: 1572976570}
-  Lat: 49.9400
-  Lon: -119.3965
+  Lat: 49.9399
+  Lon: -119.3964
   poiObject: {fileID: 132466938}
 --- !u!1 &953067091
 GameObject:
@@ -26140,7 +26140,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 122
@@ -26294,7 +26294,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1248566262
 Transform:
   m_ObjectHideFlags: 0
@@ -26355,8 +26355,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Map: {fileID: 1572976570}
-  Lat: 49.9391
-  Lon: -119.3972
+  Lat: 49.9406
+  Lon: -119.3962
   poiObject: {fileID: 186220965}
 --- !u!1 &1251727582
 GameObject:
@@ -32366,8 +32366,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Map: {fileID: 1572976570}
-  Lat: 49.93905
-  Lon: -119.3973
+  Lat: 49.9399
+  Lon: -119.3955
   poiObject: {fileID: 1703969975}
 --- !u!23 &1657784266
 MeshRenderer:
@@ -37195,8 +37195,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Map: {fileID: 1572976570}
-  Lat: 49.9399
-  Lon: -119.3978
+  Lat: 49.9402
+  Lon: -119.3977
   poiObject: {fileID: 610470529}
 --- !u!1 &1928109170
 GameObject:
