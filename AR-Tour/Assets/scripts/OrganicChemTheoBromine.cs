@@ -7,22 +7,24 @@ public class OrganicChemTheoBromine : MonoBehaviour
 
     // Use this for initialization
 
-    public GameObject Theobromine;
-    public rigidBody THEO;
-    int count = 0;
-    public GameObject SynthesisInfo; 
+  
+    public GameObject SynthesisInfo;
+    int count = 0 ; 
 
 
-    void onMouseDown() {
-        if (GameObject == Theobromine && count % 2 == 0)
+    void OnMouseDown() {
+        if (count % 2 == 0)
         {
             SynthesisInfo.SetActive(true);
             count++;
+            Debug.Log("theobromine information");
         }
-        else if (GameObject == Theobromine && count %2 == 1 )
+        else if (count %2 == 1 )
         {
             SynthesisInfo.SetActive(false);
-            count++; 
+            count++;
+            Debug.Log("Goodbye Information on theobromine");
+
         }
     }
 	
